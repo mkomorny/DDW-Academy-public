@@ -1,0 +1,15 @@
+/** Generated from the overhaul textbook. Re-run tools/import-overhaul-courses.mjs. */
+import level0 from './level00.js';
+import level1 from './level01.js';
+import level2 from './level02.js';
+import level3 from './level03.js';
+import level4 from './level04.js';
+import level5 from './level05.js';
+import level6 from './level06.js';
+import level7 from './level07.js';
+import level8 from './level08.js';
+import level9 from './level09.js';
+import level10 from './level10.js';
+import level11 from './level11.js';
+
+export const LEVELS = [level0, level1, level2, level3, level4, level5, level6, level7, level8, level9, level10, level11];

@@ -1,0 +1,179 @@
+{
+  "reference": {
+    "meanDb": -36.4,
+    "maxDb": -9.6
+  },
+  "instruments": [
+    {
+      "folder": "bass-electric",
+      "rootName": "C#4",
+      "category": "plucked",
+      "meanDb": -22.1,
+      "maxDb": -2.9,
+      "gain": 0.231,
+      "capped": false
+    },
+    {
+      "folder": "bassoon",
+      "rootName": "C4",
+      "category": "sustaining",
+      "meanDb": -12.4,
+      "maxDb": -4.2,
+      "gain": 0.041,
+      "capped": false
+    },
+    {
+      "folder": "cello",
+      "rootName": "C#4",
+      "category": "sustaining",
+      "meanDb": -12.6,
+      "maxDb": -2.9,
+      "gain": 0.042,
+      "capped": false
+    },
+    {
+      "folder": "clarinet",
+      "rootName": "A#3",
+      "category": "sustaining",
+      "meanDb": -10.9,
+      "maxDb": -2.9,
+      "gain": 0.035,
+      "capped": false
+    },
+    {
+      "folder": "contrabass",
+      "rootName": "B3",
+      "category": "sustaining",
+      "meanDb": -12.4,
+      "maxDb": -2.9,
+      "gain": 0.041,
+      "capped": false
+    },
+    {
+      "folder": "flute",
+      "rootName": "C4",
+      "category": "sustaining",
+      "meanDb": -14.4,
+      "maxDb": -2.9,
+      "gain": 0.052,
+      "capped": false
+    },
+    {
+      "folder": "french-horn",
+      "rootName": "C4",
+      "category": "sustaining",
+      "meanDb": -16.4,
+      "maxDb": -2.9,
+      "gain": 0.065,
+      "capped": false
+    },
+    {
+      "folder": "guitar-acoustic",
+      "rootName": "B3",
+      "category": "plucked",
+      "meanDb": -23.1,
+      "maxDb": -2.9,
+      "gain": 0.26,
+      "capped": false
+    },
+    {
+      "folder": "guitar-electric",
+      "rootName": "C4",
+      "category": "plucked",
+      "meanDb": -25.8,
+      "maxDb": -3,
+      "gain": 0.354,
+      "capped": false
+    },
+    {
+      "folder": "guitar-nylon",
+      "rootName": "B3",
+      "category": "plucked",
+      "meanDb": -20.4,
+      "maxDb": -2.9,
+      "gain": 0.19,
+      "capped": false
+    },
+    {
+      "folder": "harmonium",
+      "rootName": "C4",
+      "category": "sustaining",
+      "meanDb": -13.8,
+      "maxDb": -2.9,
+      "gain": 0.048,
+      "capped": false
+    },
+    {
+      "folder": "harp",
+      "rootName": "B3",
+      "category": "plucked",
+      "meanDb": -24.5,
+      "maxDb": -3,
+      "gain": 0.305,
+      "capped": false
+    },
+    {
+      "folder": "organ",
+      "rootName": "C4",
+      "category": "sustaining",
+      "meanDb": -15.8,
+      "maxDb": -2.9,
+      "gain": 0.061,
+      "capped": false
+    },
+    {
+      "folder": "saxophone",
+      "rootName": "C#4",
+      "category": "sustaining",
+      "meanDb": -13.9,
+      "maxDb": -2.9,
+      "gain": 0.049,
+      "capped": false
+    },
+    {
+      "folder": "trombone",
+      "rootName": "C4",
+      "category": "sustaining",
+      "meanDb": -11.5,
+      "maxDb": -2.9,
+      "gain": 0.037,
+      "capped": false
+    },
+    {
+      "folder": "trumpet",
+      "rootName": "C4",
+      "category": "sustaining",
+      "meanDb": -19.3,
+      "maxDb": -3,
+      "gain": 0.091,
+      "capped": false
+    },
+    {
+      "folder": "tuba",
+      "rootName": "A#3",
+      "category": "sustaining",
+      "meanDb": -13.2,
+      "maxDb": -2.9,
+      "gain": 0.045,
+      "capped": false
+    },
+    {
+      "folder": "violin",
+      "rootName": "C4",
+      "category": "sustaining",
+      "meanDb": -14.1,
+      "maxDb": -2.9,
+      "gain": 0.05,
+      "capped": false
+    },
+    {
+      "folder": "xylophone",
+      "rootName": "G4",
+      "category": "plucked",
+      "meanDb": -32,
+      "maxDb": -3,
+      "gain": 0.665,
+      "capped": true
+    }
+  ]
+}

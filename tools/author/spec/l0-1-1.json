@@ -1,0 +1,22 @@
+{
+  "lessonId": "l0-1-1",
+  "moduleId": "m0-1",
+  "title": "The Keyboard & Black Keys",
+  "targetWords": 800,
+  "stepCount": 5,
+  "mustCover": [
+    "the layout of the piano keyboard",
+    "the pattern of two and three black keys",
+    "using the black keys to navigate"
+  ],
+  "mustNotCover": [
+    "reading sheet music",
+    "note names (C, D, E)"
+  ],
+  "queries": [
+    "piano keyboard layout black keys",
+    "piano geography groups of two and three",
+    "hoffman method piano keyboard geography"
+  ],
+  "tracks": ["piano"]
+}

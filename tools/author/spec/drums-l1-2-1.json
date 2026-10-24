@@ -1,0 +1,21 @@
+{
+  "lessonId": "drums-l1-2-1",
+  "moduleId": "drums-m1-2",
+  "title": "Programming a Four-on-the-Floor",
+  "targetWords": 700,
+  "stepCount": 4,
+  "mustCover": [
+    "kick drum on every quarter note beat",
+    "why house music tempo sits around 120-128 BPM",
+    "off-beat / offbeat hi-hat placement"
+  ],
+  "mustNotCover": [
+    "sidechain compression — belongs in a mixing lesson, not this one"
+  ],
+  "queries": [
+    "four on the floor kick pattern house music",
+    "house music tempo bpm hi-hat pattern",
+    "house music drum programming offbeat hats"
+  ],
+  "tracks": ["drums", "production"]
+}

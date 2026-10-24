@@ -1,0 +1,651 @@
+{
+  "$comment": "Hand-curated triage of the 59 deduped NotebookLM notebooks (302.6M chars total). keep:false notebooks are excluded before cleaning/chunking/embedding — mostly AI-provider dev docs (Claude/Gemini/Grok API references, dev-tooling) that are irrelevant to authoring a music course. tracks tags which curriculum track(s) a notebook is relevant to; weight breaks ties in near-dup removal and biases retrieval ranking (higher = prefer this notebook's version of overlapping content).",
+  "tracksLegend": [
+    "piano",
+    "theory",
+    "drums",
+    "production",
+    "sound-design",
+    "hardware",
+    "editing"
+  ],
+  "notebooks": [
+    {
+      "title": "Music Production (sources are all NotebookLM)",
+      "keep": true,
+      "tracks": [
+        "piano",
+        "drums",
+        "production"
+      ],
+      "weight": 1.3
+    },
+    {
+      "title": "Windows & Device User Manuals",
+      "keep": false,
+      "reason": "device manuals unrelated to music"
+    },
+    {
+      "title": "MUSIC PROD folder on PC_pt 1",
+      "keep": true,
+      "tracks": [
+        "piano",
+        "drums",
+        "production"
+      ],
+      "weight": 1.2
+    },
+    {
+      "title": "Accelerated Music Production Checklist",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1
+    },
+    {
+      "title": "Ableton & Music Production - Standalone Guides, Compiled",
+      "keep": true,
+      "tracks": [
+        "production",
+        "drums"
+      ],
+      "weight": 1.2
+    },
+    {
+      "title": "DJing & EDM Production - Extracted Course Text",
+      "keep": true,
+      "tracks": [
+        "drums",
+        "production"
+      ],
+      "weight": 1.3
+    },
+    {
+      "title": "DJing & EDM Production - Official PDF Guides",
+      "keep": true,
+      "tracks": [
+        "drums",
+        "production"
+      ],
+      "weight": 1.3
+    },
+    {
+      "title": "Ableton Live - Extracted Knowledgebase, Course Text (Part 2 of 2)",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1.1
+    },
+    {
+      "title": "Gemini Operations ",
+      "keep": false,
+      "reason": "AI provider dev docs, not course source material"
+    },
+    {
+      "title": "Audio DSP & Signal Processing Research",
+      "keep": true,
+      "tracks": [
+        "production",
+        "sound-design"
+      ],
+      "weight": 1
+    },
+    {
+      "title": "Ableton Live & Companion Apps - Official Manuals",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1.2
+    },
+    {
+      "title": "EDM MUSIC BEGINNER PRODUCER TIPS",
+      "keep": true,
+      "tracks": [
+        "production",
+        "drums"
+      ],
+      "weight": 1.1
+    },
+    {
+      "title": "MUSIC PROD folder on PC_pt 2",
+      "keep": true,
+      "tracks": [
+        "piano",
+        "drums",
+        "production"
+      ],
+      "weight": 1.1
+    },
+    {
+      "title": "Ableton Live - Extracted Knowledgebase, Course Text (Part 1 of 2)",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1.1
+    },
+    {
+      "title": "Producing Electronic Dance Music: Drums, Bass, and Theory",
+      "keep": true,
+      "tracks": [
+        "drums",
+        "theory"
+      ],
+      "weight": 1.4
+    },
+    {
+      "title": "Bass Music Production",
+      "keep": true,
+      "tracks": [
+        "production",
+        "drums"
+      ],
+      "weight": 1
+    },
+    {
+      "title": "Dubstep Production Techniques_Done",
+      "keep": true,
+      "tracks": [
+        "drums",
+        "production"
+      ],
+      "weight": 1.3
+    },
+    {
+      "title": "Claude Connectors, Cowork & Client Apps",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Harmonic Navigator: Chord Progression Cheat Sheet",
+      "keep": true,
+      "tracks": [
+        "theory"
+      ],
+      "weight": 1.2
+    },
+    {
+      "title": "Claude API Docs",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Claude API & Product Docs Reference",
+      "keep": false,
+      "reason": "AI provider dev docs, duplicate of Claude API Docs"
+    },
+    {
+      "title": "Music Production Workflows",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1
+    },
+    {
+      "title": "Production Resources",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1
+    },
+    {
+      "title": "GROK EXPERT",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Sound Design, Plugin Manuals & Course Meta",
+      "keep": true,
+      "tracks": [
+        "sound-design"
+      ],
+      "weight": 1.1
+    },
+    {
+      "title": "Gemini 3.5 Flash and Imagen API Development Guide",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Ableton Companion Apps - Knowledgebase (Max for Live, Note, Link & Cloud)",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 0.9
+    },
+    {
+      "title": "Gemini API Reference Docs",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Sound Design - Professional Degree Coursework",
+      "keep": true,
+      "tracks": [
+        "sound-design"
+      ],
+      "weight": 1.2
+    },
+    {
+      "title": "Music Theory - Research & Course Notes",
+      "keep": true,
+      "tracks": [
+        "theory"
+      ],
+      "weight": 1.3
+    },
+    {
+      "title": "Advanced Pitch Detection Algorithms for Music and Speech",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 0.7
+    },
+    {
+      "title": "drum pad course",
+      "keep": true,
+      "tracks": [
+        "drums"
+      ],
+      "weight": 1.4,
+      "note": "contains ~4 off-topic blockchain-sidechain sources (search-term collision on 'sidechain') — filtered in 02-clean.mjs by URL/title pattern, not dropped at notebook level"
+    },
+    {
+      "title": "Ableton Live 12 - Official Knowledgebase",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1.2
+    },
+    {
+      "title": "Session View Ableton",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1
+    },
+    {
+      "title": "Music Production NEW",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 0.8
+    },
+    {
+      "title": "Music Production 4",
+      "keep": true,
+      "tracks": [
+        "piano",
+        "drums",
+        "production"
+      ],
+      "weight": 1
+    },
+    {
+      "title": "AI App Dev - Image, Video & Misc Tool Docs",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Audacity",
+      "keep": true,
+      "tracks": [
+        "production",
+        "editing"
+      ],
+      "weight": 0.7
+    },
+    {
+      "title": "Music Prod. 2",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 0.9
+    },
+    {
+      "title": "Music Theory Tips",
+      "keep": true,
+      "tracks": [
+        "theory"
+      ],
+      "weight": 1.1
+    },
+    {
+      "title": "Piano Lessons - Extracted Course Text",
+      "keep": true,
+      "tracks": [
+        "piano"
+      ],
+      "weight": 1.3
+    },
+    {
+      "title": "Claude 3rd Party Resources",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Ableton Live 12 Packs",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 0.8
+    },
+    {
+      "title": "Vite React Tailwind Configuration Architecture",
+      "keep": false,
+      "reason": "unrelated web dev stack — this app is vanilla ES modules, no bundler"
+    },
+    {
+      "title": "Novation - Official Manuals & Support Articles",
+      "keep": true,
+      "tracks": [
+        "drums",
+        "hardware"
+      ],
+      "weight": 1.3
+    },
+    {
+      "title": "Gain Staging/Modulation/Automation",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1
+    },
+    {
+      "title": "Novation - Extracted Knowledgebase, Course Text",
+      "keep": true,
+      "tracks": [
+        "drums",
+        "hardware"
+      ],
+      "weight": 1.2
+    },
+    {
+      "title": "Windows and MIDI Control",
+      "keep": true,
+      "tracks": [
+        "hardware"
+      ],
+      "weight": 0.8
+    },
+    {
+      "title": "Midjourney",
+      "keep": false,
+      "reason": "AI image tool docs, not course source material"
+    },
+    {
+      "title": "Electronic Music Chord Progressions and Theory",
+      "keep": true,
+      "tracks": [
+        "theory",
+        "production"
+      ],
+      "weight": 1.1
+    },
+    {
+      "title": "Musical Modes",
+      "keep": true,
+      "tracks": [
+        "theory"
+      ],
+      "weight": 1
+    },
+    {
+      "title": "EDM Production",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 0.9
+    },
+    {
+      "title": "Grok API Docs",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Grok (xAI) API Reference Docs",
+      "keep": false,
+      "reason": "AI provider dev docs, duplicate of Grok API Docs"
+    },
+    {
+      "title": "Claude Tools",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Max for Live",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 0.9
+    },
+    {
+      "title": "Google Labs",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Grok 3rd Party Resources",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "AI Studio Docs",
+      "keep": false,
+      "reason": "AI provider dev docs"
+    },
+    {
+      "title": "Ableton Batch 3",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Ableton Live Batch 2",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Ableton Stock Features",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Ableton Batch 1",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Ableton.com Informational Resources",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Ableton Live 12 Official Documentation",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Ableton My third Party Plugins",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Surge",
+      "keep": true,
+      "tracks": [
+        "production"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Audio Effects",
+      "keep": true,
+      "tracks": [
+        "production",
+        "drums"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "DUBSTEP-DRUMnBASS-ETC",
+      "keep": true,
+      "tracks": [
+        "production",
+        "drums"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Master Batches",
+      "keep": true,
+      "tracks": [
+        "production",
+        "drums"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Ableton Gemini Chats-Research",
+      "keep": true,
+      "tracks": [
+        "production",
+        "drums"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Mastering Electronic Drums- Layering, Synthesis, and Mix Context",
+      "keep": true,
+      "tracks": [
+        "production",
+        "drums"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Music Theory",
+      "keep": true,
+      "tracks": [
+        "theory"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Music Theory- Chords",
+      "keep": true,
+      "tracks": [
+        "theory"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Launchkey and related",
+      "keep": true,
+      "tracks": [
+        "drums",
+        "hardware"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Novation Launchkey 61",
+      "keep": true,
+      "tracks": [
+        "drums",
+        "hardware"
+      ],
+      "weight": 1,
+      "note": "auto-triaged on corpus restructure (2026-08-12) — please review"
+    },
+    {
+      "title": "Grok Build Research Results",
+      "keep": true,
+      "tracks": [
+        "production",
+        "piano",
+        "theory",
+        "sound-design"
+      ],
+      "weight": 1,
+      "note": "curated Grok deep-research knowledge bases, added on corpus restructure (2026-08-12)"
+    },
+    {
+      "title": "User Manuals",
+      "keep": true,
+      "tracks": [
+        "production",
+        "hardware",
+        "sound-design",
+        "drums"
+      ],
+      "weight": 1,
+      "note": "hardware and plugin manuals, added on corpus restructure"
+    },
+    {
+      "title": "Training Docs",
+      "keep": true,
+      "tracks": [
+        "production",
+        "piano",
+        "theory",
+        "sound-design",
+        "drums",
+        "djing"
+      ],
+      "weight": 1,
+      "note": "general training material in root, added on corpus restructure"
+    }
+  ]
+}

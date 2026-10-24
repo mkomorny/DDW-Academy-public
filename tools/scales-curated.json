@@ -1,0 +1,146 @@
+{
+ "_comment": "Hand-curated scale entries for corpus files that define MORE THAN ONE scale in a single PDF (the automatic miner refuses these to avoid pairing a formula with the wrong heading), plus one correction to a typo in the source material. Every 'steps' array here was read directly off the named PDF's own 'Semitones:' line and verified to sum to 12.",
+ "scales": [
+  {
+   "id": "minor-blues",
+   "name": "Minor Blues Scale",
+   "aliases": ["Minor Pentatonic Blues"],
+   "steps": [3, 2, 1, 1, 3, 2],
+   "degrees": ["1", "b3", "4", "#4", "5", "b7"],
+   "description": "The minor blues scale is the minor pentatonic with an added flat fifth - the 'blue note'. It is the workhorse scale for blues and rock soloing, and sits comfortably over dominant seventh chords.",
+   "source": "blues-scales",
+   "sourcePdf": "Blues Scales.pdf"
+  },
+  {
+   "id": "major-blues",
+   "name": "Major Blues Scale",
+   "aliases": ["Major Pentatonic Blues"],
+   "steps": [2, 1, 1, 3, 2, 3],
+   "degrees": ["1", "2", "b3", "3", "5", "6"],
+   "description": "The major blues scale is the major pentatonic with an added flat third, giving the characteristic slide between the minor and major third. Brighter and more country- or gospel-flavoured than the minor blues scale.",
+   "source": "blues-scales",
+   "sourcePdf": "Blues Scales.pdf"
+  },
+  {
+   "id": "major-bebop",
+   "name": "Major Bebop Scale",
+   "aliases": ["Bebop Major"],
+   "steps": [2, 2, 1, 2, 1, 1, 2, 1],
+   "degrees": ["1", "2", "3", "4", "5", "b6", "6", "7"],
+   "description": "An eight-note scale: the major scale with an added chromatic passing tone between the fifth and sixth degrees. The extra note makes the scale come out even in eighth notes, so chord tones land on the downbeats.",
+   "source": "bebop-scale",
+   "sourcePdf": "Bebop Scale.pdf"
+  },
+  {
+   "id": "minor-bebop",
+   "name": "Minor Bebop Scale",
+   "aliases": ["Bebop Minor", "Dorian Bebop"],
+   "steps": [2, 1, 1, 1, 2, 2, 1, 2],
+   "degrees": ["1", "2", "b3", "3", "4", "5", "6", "b7"],
+   "description": "The Dorian mode with an added chromatic passing tone between the flat third and the natural third. Used over minor seventh chords in a ii-V-I.",
+   "source": "bebop-scale",
+   "sourcePdf": "Bebop Scale.pdf"
+  },
+  {
+   "id": "enigmatic-major",
+   "name": "Enigmatic Major Scale",
+   "aliases": ["Scala Enigmatica"],
+   "steps": [1, 3, 2, 2, 2, 1, 1],
+   "degrees": ["1", "b2", "3", "#4", "#5", "#6", "7"],
+   "description": "Devised by Giuseppe Verdi as a compositional puzzle. It mixes a flat second with a raised fourth, fifth and sixth, producing a scale that belongs to no conventional key.",
+   "source": "enigmatic-scales",
+   "sourcePdf": "Enigmatic Scales.pdf"
+  },
+  {
+   "id": "enigmatic-minor",
+   "name": "Enigmatic Minor Scale",
+   "aliases": [],
+   "steps": [1, 2, 3, 1, 3, 1, 1],
+   "degrees": ["1", "b2", "b3", "#4", "5", "#6", "7"],
+   "description": "The minor-flavoured variant of Verdi's enigmatic scale, with a flat third and two augmented steps.",
+   "source": "enigmatic-scales",
+   "sourcePdf": "Enigmatic Scales.pdf"
+  },
+  {
+   "id": "hungarian-minor",
+   "name": "Hungarian Minor Scale",
+   "aliases": ["Gypsy Minor", "Double Harmonic Minor"],
+   "steps": [2, 1, 3, 1, 1, 3, 1],
+   "degrees": ["1", "2", "b3", "#4", "5", "b6", "7"],
+   "description": "The harmonic minor scale with a raised fourth, producing two augmented seconds. Strongly associated with Hungarian and Romani folk music.",
+   "source": "hungarian-scales",
+   "sourcePdf": "Hungarian Scales.pdf"
+  },
+  {
+   "id": "hungarian-major",
+   "name": "Hungarian Major Scale",
+   "aliases": ["Hungarian Gypsy Major"],
+   "steps": [3, 1, 2, 1, 2, 1, 2],
+   "degrees": ["1", "#2", "3", "#4", "5", "b6", "7"],
+   "description": "Opens with an augmented second from the root, then alternates half and whole steps. Bright but unstable, common in Bartok and Liszt.",
+   "source": "hungarian-scales",
+   "sourcePdf": "Hungarian Scales.pdf"
+  },
+  {
+   "id": "neapolitan-minor",
+   "name": "Neapolitan Minor Scale",
+   "aliases": [],
+   "steps": [1, 2, 2, 2, 1, 3, 1],
+   "degrees": ["1", "b2", "b3", "4", "5", "b6", "7"],
+   "description": "Harmonic minor with a lowered second degree. The flat second over a minor tonic gives the dark, Neapolitan colour.",
+   "source": "neapolitan-scales",
+   "sourcePdf": "Neapolitan Scales.pdf"
+  },
+  {
+   "id": "neapolitan-major",
+   "name": "Neapolitan Major Scale",
+   "aliases": [],
+   "steps": [1, 2, 2, 2, 2, 2, 1],
+   "degrees": ["1", "b2", "b3", "4", "5", "6", "7"],
+   "description": "A flat second and flat third over an otherwise major upper tetrachord - effectively Phrygian with a raised sixth and seventh.",
+   "source": "neapolitan-scales",
+   "sourcePdf": "Neapolitan Scales.pdf"
+  },
+  {
+   "id": "hanumatodi",
+   "name": "Indian Scale (Hanumatodi)",
+   "aliases": ["Todi Thaat", "Phrygian b6"],
+   "steps": [1, 2, 2, 2, 1, 2, 2],
+   "degrees": ["1", "b2", "b3", "4", "5", "b6", "b7"],
+   "description": "The eighth melakarta raga of Carnatic music, identical in pitch content to the Phrygian mode. One of the most widely used scale forms in Indian classical music.",
+   "source": "indian-scale-hanumatodi",
+   "sourcePdf": "Indian Scale (Hanumatodi).pdf"
+  },
+  {
+   "id": "phrygian-dominant",
+   "name": "Phrygian Dominant Scale",
+   "aliases": ["Spanish Gypsy", "Freygish", "Ahava Raba"],
+   "steps": [1, 3, 1, 2, 1, 2, 2],
+   "degrees": ["1", "b2", "3", "4", "5", "b6", "b7"],
+   "description": "The fifth mode of the harmonic minor: a major third sitting on top of a flat second. The signature sound of flamenco, klezmer and Middle Eastern music, and the standard choice over an altered dominant resolving to minor.",
+   "source": "dominant-scales",
+   "sourcePdf": "Dominant scales.pdf"
+  },
+  {
+   "id": "dominant-pentatonic",
+   "name": "Dominant Pentatonic Scale",
+   "aliases": [],
+   "steps": [2, 2, 3, 3, 2],
+   "degrees": ["1", "2", "3", "4", "5", "b7"],
+   "description": "A five-note scale built on the dominant seventh chord tones plus the second. Compact and consonant over any V7 chord.",
+   "source": "dominant-scales",
+   "sourcePdf": "Dominant scales.pdf"
+  },
+  {
+   "id": "harmonic-major",
+   "name": "Harmonic Major Scale",
+   "aliases": ["Ionian b6"],
+   "steps": [2, 2, 1, 2, 1, 3, 1],
+   "degrees": ["1", "2", "3", "4", "5", "b6", "7"],
+   "description": "The major scale with a lowered sixth degree, creating an augmented second between the sixth and seventh. It is to the major scale what harmonic minor is to natural minor.",
+   "source": "harmonic-major-scales",
+   "sourcePdf": "Harmonic Major Scales.pdf",
+   "erratum": "The source PDF's 'Semitones:' line reads 2-2-1-2-1-2-1, which sums to 11 rather than 12. The same page's 'Formula:' line (Whole, Whole, Half, Whole, Half, Whole-and-a-half, Half) and its 'Intervals:' line (1, 2, 3, 4, 5, b6, 7) both give 2-2-1-2-1-3-1. The corrected figure is used here."
+  }
+ ]
+}

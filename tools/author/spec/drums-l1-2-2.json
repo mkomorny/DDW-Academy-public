@@ -1,0 +1,21 @@
+{
+  "lessonId": "drums-l1-2-2",
+  "moduleId": "drums-m1-2",
+  "title": "Adding Snare and Hats",
+  "targetWords": 700,
+  "stepCount": 4,
+  "mustCover": [
+    "snare on beats 2 and 4",
+    "open hat variations",
+    "the padMap block"
+  ],
+  "mustNotCover": [
+    "ghost notes"
+  ],
+  "queries": [
+    "house music snare placement 2 and 4",
+    "house music open hi-hat pattern",
+    "finger drumming pad layout"
+  ],
+  "tracks": ["drums", "production"]
+}

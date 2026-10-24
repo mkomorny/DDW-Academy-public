@@ -1,0 +1,25 @@
+{
+  "lessonId": "drums-l1-1-1",
+  "moduleId": "drums-m1-1",
+  "title": "The Rhythmic Grid: Beats, Subdivisions & Note Values",
+  "targetWords": 700,
+  "stepCount": 4,
+  "mustCover": [
+    "how a quarter note beat divides into eighth notes (2 per beat) and sixteenth notes (4 per beat) in 4/4 time",
+    "further subdivisions: thirty-second notes and triplets (beat divided into 3 equal parts instead of 2/4)",
+    "how a DAW's editing/beat grid visually represents these subdivisions and snaps note placement to them",
+    "meter basics: what 4/4 (quadruple) time means and how it differs from 3/4 (triple/waltz) time"
+  ],
+  "mustNotCover": [
+    "swing/shuffle feel and humanizing timing — belongs to a later Groove module (2.1)",
+    "quantize strength / groove templates as a mixing-adjacent workflow topic — belongs to Section 5 (5.3)",
+    "genre-specific pattern programming — belongs to Section 2 genre modules"
+  ],
+  "queries": [
+    "note values subdivisions eighth sixteenth notes grid",
+    "DAW piano roll grid quantization beat grid",
+    "meter time signature quadruple triple beats per measure",
+    "triplets subdivision beat divided into three"
+  ],
+  "tracks": ["drums", "production", "theory"]
+}

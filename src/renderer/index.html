@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Strict CSP: this app loads no remote content of any kind. -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'">
+  <title>DDW Academy</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="themes.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <span class="bk"></span><span class="bk"></span><span class="bk"></span>
+        </div>
+        <div class="brand-text">
+          <strong>DDW Academy</strong>
+          <small>Foundations of Piano</small>
+        </div>
+      </div>
+
+      <nav id="mainnav" aria-label="Main sections">
+        <button class="navbtn" data-route="picker"><span class="ni">⌂</span> Home</button>
+        <hr class="nav-separator">
+        <button class="navbtn" data-route="home"><span class="ni">◈</span> Overview</button>
+        <button class="navbtn" data-route="learn"><span class="ni">▤</span> Learn</button>
+        <button class="navbtn" data-route="practice"><span class="ni">◎</span> Practice</button>
+        <button class="navbtn" data-route="games"><span class="ni">◇</span> Games</button>
+        <button class="navbtn" data-route="reference"><span class="ni">☰</span> Reference</button>
+        <button class="navbtn" data-route="settings"><span class="ni">⚙</span> Settings</button>
+        <div class="theme-row" aria-label="Color theme">
+          <button class="theme-btn" id="themePickBtn" title="Choose a color theme">
+            <span class="ni">◐</span> Theme
+          </button>
+          <button class="theme-btn shuffle" id="themeShuffleBtn" title="Shuffle to a random theme">⤨</button>
+        </div>
+      </nav>
+
+      <div id="sidebar-extra"></div>
+
+      <div class="midi-status" id="midiStatus" role="status">
+        <span class="dot" id="midiDot"></span>
+        <span id="midiText">MIDI: not connected</span>
+      </div>
+    </aside>
+
+    <main id="main">
+      <div id="view" tabindex="-1"></div>
+    </main>
+
+    <div id="dock" aria-label="Keyboard dock">
+      <div class="dock-bar">
+        <button id="dockToggle" class="mini" title="Show or hide the keyboard">▾ Keyboard</button>
+        <div class="dock-controls">
+          <label class="mini-label">Octave
+            <button class="mini" id="octDown" aria-label="Octave down">−</button>
+            <span id="octLabel">3</span>
+            <button class="mini" id="octUp" aria-label="Octave up">+</button>
+          </label>
+          <label class="mini-label">Labels
+            <select id="labelMode" class="mini-select">
+              <option value="none">None</option>
+              <option value="c" selected>C only</option>
+              <option value="all">All</option>
+            </select>
+          </label>
+          <label class="mini-label">Sound
+            <select id="instrument" class="mini-select"></select>
+            <span id="instStatus" class="mini-note" aria-live="polite"></span>
+          </label>
+          <button class="mini" id="panicBtn" title="Silence everything: stop all held notes, stuck MIDI keys, and hanging sounds">Panic</button>
+        </div>
+      </div>
+      <div id="dockKeyboard" class="dock-keyboard"></div>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

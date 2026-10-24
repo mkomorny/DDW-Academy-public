@@ -1,0 +1,1901 @@
+{
+  "sha": "622c2f1c32c8cfce4158ddc3eb26e518ddef37e5",
+  "folders": {
+    "bass-electric": {
+      "files": [
+        {
+          "name": "As1.ogg",
+          "size": 405955,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/As1.ogg"
+        },
+        {
+          "name": "As2.ogg",
+          "size": 297610,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/As2.ogg"
+        },
+        {
+          "name": "As3.ogg",
+          "size": 225748,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/As3.ogg"
+        },
+        {
+          "name": "As4.ogg",
+          "size": 154927,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/As4.ogg"
+        },
+        {
+          "name": "Cs1.ogg",
+          "size": 448184,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs1.ogg"
+        },
+        {
+          "name": "Cs2.ogg",
+          "size": 359556,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs2.ogg"
+        },
+        {
+          "name": "Cs3.ogg",
+          "size": 299868,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs3.ogg"
+        },
+        {
+          "name": "Cs4.ogg",
+          "size": 221571,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs4.ogg"
+        },
+        {
+          "name": "Cs5.ogg",
+          "size": 134062,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/Cs5.ogg"
+        },
+        {
+          "name": "E1.ogg",
+          "size": 452496,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E1.ogg"
+        },
+        {
+          "name": "E2.ogg",
+          "size": 309768,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E2.ogg"
+        },
+        {
+          "name": "E3.ogg",
+          "size": 236905,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E3.ogg"
+        },
+        {
+          "name": "E4.ogg",
+          "size": 161225,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/E4.ogg"
+        },
+        {
+          "name": "G1.ogg",
+          "size": 425296,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/G1.ogg"
+        },
+        {
+          "name": "G2.ogg",
+          "size": 301930,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/G2.ogg"
+        },
+        {
+          "name": "G3.ogg",
+          "size": 219654,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/G3.ogg"
+        },
+        {
+          "name": "G4.ogg",
+          "size": 148371,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bass-electric/G4.ogg"
+        }
+      ]
+    },
+    "bassoon": {
+      "files": [
+        {
+          "name": "A2.ogg",
+          "size": 154363,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bassoon/A2.ogg"
+        },
+        {
+          "name": "A3.ogg",
+          "size": 158515,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bassoon/A3.ogg"
+        },
+        {
+          "name": "A4.ogg",
+          "size": 216198,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bassoon/A4.ogg"
+        },
+        {
+          "name": "C3.ogg",
+          "size": 180282,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bassoon/C3.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 148834,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bassoon/C4.ogg"
+        },
+        {
+          "name": "C5.ogg",
+          "size": 121974,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bassoon/C5.ogg"
+        },
+        {
+          "name": "E4.ogg",
+          "size": 117951,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bassoon/E4.ogg"
+        },
+        {
+          "name": "G2.ogg",
+          "size": 166448,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bassoon/G2.ogg"
+        },
+        {
+          "name": "G3.ogg",
+          "size": 191240,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bassoon/G3.ogg"
+        },
+        {
+          "name": "G4.ogg",
+          "size": 186420,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/bassoon/G4.ogg"
+        }
+      ]
+    },
+    "cello": {
+      "files": [
+        {
+          "name": "A2.ogg",
+          "size": 80928,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/A2.ogg"
+        },
+        {
+          "name": "A3.ogg",
+          "size": 64711,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/A3.ogg"
+        },
+        {
+          "name": "A4.ogg",
+          "size": 57056,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/A4.ogg"
+        },
+        {
+          "name": "As2.ogg",
+          "size": 85694,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/As2.ogg"
+        },
+        {
+          "name": "As3.ogg",
+          "size": 65362,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/As3.ogg"
+        },
+        {
+          "name": "B2.ogg",
+          "size": 69249,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/B2.ogg"
+        },
+        {
+          "name": "B3.ogg",
+          "size": 89032,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/B3.ogg"
+        },
+        {
+          "name": "B4.ogg",
+          "size": 60053,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/B4.ogg"
+        },
+        {
+          "name": "C2.ogg",
+          "size": 93689,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C2.ogg"
+        },
+        {
+          "name": "C3.ogg",
+          "size": 68199,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C3.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 86895,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C4.ogg"
+        },
+        {
+          "name": "C5.ogg",
+          "size": 83034,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/C5.ogg"
+        },
+        {
+          "name": "Cs3.ogg",
+          "size": 80526,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Cs3.ogg"
+        },
+        {
+          "name": "Cs4.ogg",
+          "size": 64918,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Cs4.ogg"
+        },
+        {
+          "name": "D2.ogg",
+          "size": 96428,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/D2.ogg"
+        },
+        {
+          "name": "D3.ogg",
+          "size": 80399,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/D3.ogg"
+        },
+        {
+          "name": "D4.ogg",
+          "size": 69520,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/D4.ogg"
+        },
+        {
+          "name": "Ds2.ogg",
+          "size": 77886,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Ds2.ogg"
+        },
+        {
+          "name": "Ds3.ogg",
+          "size": 69696,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Ds3.ogg"
+        },
+        {
+          "name": "Ds4.ogg",
+          "size": 71706,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Ds4.ogg"
+        },
+        {
+          "name": "E2.ogg",
+          "size": 74498,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/E2.ogg"
+        },
+        {
+          "name": "E3.ogg",
+          "size": 69616,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/E3.ogg"
+        },
+        {
+          "name": "E4.ogg",
+          "size": 66031,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/E4.ogg"
+        },
+        {
+          "name": "F2 v2.ogg",
+          "size": 73023,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/F2%20v2.ogg"
+        },
+        {
+          "name": "F2.ogg",
+          "size": 97271,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/F2.ogg"
+        },
+        {
+          "name": "F3.ogg",
+          "size": 75024,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/F3.ogg"
+        },
+        {
+          "name": "F4.ogg",
+          "size": 70293,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/F4.ogg"
+        },
+        {
+          "name": "Fs3.ogg",
+          "size": 67979,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Fs3.ogg"
+        },
+        {
+          "name": "Fs4.ogg",
+          "size": 56870,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Fs4.ogg"
+        },
+        {
+          "name": "G2 v2.ogg",
+          "size": 84098,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/G2%20v2.ogg"
+        },
+        {
+          "name": "G2.ogg",
+          "size": 87571,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/G2.ogg"
+        },
+        {
+          "name": "G3.ogg",
+          "size": 70479,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/G3.ogg"
+        },
+        {
+          "name": "G4.ogg",
+          "size": 57862,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/G4.ogg"
+        },
+        {
+          "name": "Gs2.ogg",
+          "size": 75759,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Gs2.ogg"
+        },
+        {
+          "name": "Gs3.ogg",
+          "size": 58304,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Gs3.ogg"
+        },
+        {
+          "name": "Gs4.ogg",
+          "size": 56186,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/cello/Gs4.ogg"
+        }
+      ]
+    },
+    "clarinet": {
+      "files": [
+        {
+          "name": "As3.ogg",
+          "size": 279351,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/As3.ogg"
+        },
+        {
+          "name": "As4.ogg",
+          "size": 224896,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/As4.ogg"
+        },
+        {
+          "name": "As5.ogg",
+          "size": 225727,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/As5.ogg"
+        },
+        {
+          "name": "D3.ogg",
+          "size": 265637,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/D3.ogg"
+        },
+        {
+          "name": "D4.ogg",
+          "size": 265268,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/D4.ogg"
+        },
+        {
+          "name": "D5.ogg",
+          "size": 279923,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/D5.ogg"
+        },
+        {
+          "name": "D6.ogg",
+          "size": 188176,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/D6.ogg"
+        },
+        {
+          "name": "F3.ogg",
+          "size": 279952,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/F3.ogg"
+        },
+        {
+          "name": "F4.ogg",
+          "size": 290760,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/F4.ogg"
+        },
+        {
+          "name": "F5.ogg",
+          "size": 294739,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/F5.ogg"
+        },
+        {
+          "name": "Fs6.ogg",
+          "size": 132546,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/clarinet/Fs6.ogg"
+        }
+      ]
+    },
+    "contrabass": {
+      "files": [
+        {
+          "name": "A2.ogg",
+          "size": 326644,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/A2.ogg"
+        },
+        {
+          "name": "As1.ogg",
+          "size": 190516,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/As1.ogg"
+        },
+        {
+          "name": "B3.ogg",
+          "size": 180861,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/B3.ogg"
+        },
+        {
+          "name": "C2.ogg",
+          "size": 262797,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/C2.ogg"
+        },
+        {
+          "name": "Cs3.ogg",
+          "size": 211724,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/Cs3.ogg"
+        },
+        {
+          "name": "D2.ogg",
+          "size": 452473,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/D2.ogg"
+        },
+        {
+          "name": "E2.ogg",
+          "size": 373242,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/E2.ogg"
+        },
+        {
+          "name": "E3.ogg",
+          "size": 235492,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/E3.ogg"
+        },
+        {
+          "name": "Fs1.ogg",
+          "size": 251024,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/Fs1.ogg"
+        },
+        {
+          "name": "Fs2.ogg",
+          "size": 194365,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/Fs2.ogg"
+        },
+        {
+          "name": "G1.ogg",
+          "size": 243870,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/G1.ogg"
+        },
+        {
+          "name": "Gs2.ogg",
+          "size": 178722,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/Gs2.ogg"
+        },
+        {
+          "name": "Gs3.ogg",
+          "size": 201672,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/contrabass/Gs3.ogg"
+        }
+      ]
+    },
+    "flute": {
+      "files": [
+        {
+          "name": "A4.ogg",
+          "size": 209499,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A4.ogg"
+        },
+        {
+          "name": "A5.ogg",
+          "size": 183557,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A5.ogg"
+        },
+        {
+          "name": "A6.ogg",
+          "size": 124231,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/A6.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 212748,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C4.ogg"
+        },
+        {
+          "name": "C5.ogg",
+          "size": 199028,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C5.ogg"
+        },
+        {
+          "name": "C6.ogg",
+          "size": 177214,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C6.ogg"
+        },
+        {
+          "name": "C7.ogg",
+          "size": 116520,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/C7.ogg"
+        },
+        {
+          "name": "E4.ogg",
+          "size": 280504,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/E4.ogg"
+        },
+        {
+          "name": "E5.ogg",
+          "size": 202616,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/E5.ogg"
+        },
+        {
+          "name": "E6.ogg",
+          "size": 144431,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/flute/E6.ogg"
+        }
+      ]
+    },
+    "french-horn": {
+      "files": [
+        {
+          "name": "A1.ogg",
+          "size": 132755,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/french-horn/A1.ogg"
+        },
+        {
+          "name": "A3.ogg",
+          "size": 330223,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/french-horn/A3.ogg"
+        },
+        {
+          "name": "C2.ogg",
+          "size": 153885,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/french-horn/C2.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 324561,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/french-horn/C4.ogg"
+        },
+        {
+          "name": "D3.ogg",
+          "size": 371564,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/french-horn/D3.ogg"
+        },
+        {
+          "name": "D5.ogg",
+          "size": 150096,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/french-horn/D5.ogg"
+        },
+        {
+          "name": "Ds2.ogg",
+          "size": 202414,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/french-horn/Ds2.ogg"
+        },
+        {
+          "name": "F3.ogg",
+          "size": 297416,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/french-horn/F3.ogg"
+        },
+        {
+          "name": "F5.ogg",
+          "size": 162107,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/french-horn/F5.ogg"
+        },
+        {
+          "name": "G2.ogg",
+          "size": 301472,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/french-horn/G2.ogg"
+        }
+      ]
+    },
+    "guitar-acoustic": {
+      "files": [
+        {
+          "name": "A2.ogg",
+          "size": 261217,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/A2.ogg"
+        },
+        {
+          "name": "A3.ogg",
+          "size": 103157,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/A3.ogg"
+        },
+        {
+          "name": "A4.ogg",
+          "size": 97204,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/A4.ogg"
+        },
+        {
+          "name": "As2.ogg",
+          "size": 255005,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/As2.ogg"
+        },
+        {
+          "name": "As3.ogg",
+          "size": 103298,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/As3.ogg"
+        },
+        {
+          "name": "As4.ogg",
+          "size": 98280,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/As4.ogg"
+        },
+        {
+          "name": "B2.ogg",
+          "size": 328582,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/B2.ogg"
+        },
+        {
+          "name": "B3.ogg",
+          "size": 118468,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/B3.ogg"
+        },
+        {
+          "name": "B4.ogg",
+          "size": 92347,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/B4.ogg"
+        },
+        {
+          "name": "C3.ogg",
+          "size": 325022,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/C3.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 83315,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/C4.ogg"
+        },
+        {
+          "name": "C5.ogg",
+          "size": 80026,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/C5.ogg"
+        },
+        {
+          "name": "Cs3.ogg",
+          "size": 287859,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Cs3.ogg"
+        },
+        {
+          "name": "Cs4.ogg",
+          "size": 101871,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Cs4.ogg"
+        },
+        {
+          "name": "Cs5.ogg",
+          "size": 83050,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Cs5.ogg"
+        },
+        {
+          "name": "D2.ogg",
+          "size": 235770,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/D2.ogg"
+        },
+        {
+          "name": "D3.ogg",
+          "size": 285455,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/D3.ogg"
+        },
+        {
+          "name": "D4.ogg",
+          "size": 78495,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/D4.ogg"
+        },
+        {
+          "name": "D5.ogg",
+          "size": 75423,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/D5.ogg"
+        },
+        {
+          "name": "Ds2.ogg",
+          "size": 229664,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Ds2.ogg"
+        },
+        {
+          "name": "Ds3.ogg",
+          "size": 255912,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Ds3.ogg"
+        },
+        {
+          "name": "Ds4.ogg",
+          "size": 107283,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Ds4.ogg"
+        },
+        {
+          "name": "E2.ogg",
+          "size": 234299,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/E2.ogg"
+        },
+        {
+          "name": "E3.ogg",
+          "size": 227736,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/E3.ogg"
+        },
+        {
+          "name": "E4.ogg",
+          "size": 105967,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/E4.ogg"
+        },
+        {
+          "name": "F2.ogg",
+          "size": 337314,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/F2.ogg"
+        },
+        {
+          "name": "F3.ogg",
+          "size": 209337,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/F3.ogg"
+        },
+        {
+          "name": "F4.ogg",
+          "size": 113290,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/F4.ogg"
+        },
+        {
+          "name": "Fs2.ogg",
+          "size": 332028,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Fs2.ogg"
+        },
+        {
+          "name": "Fs3.ogg",
+          "size": 212042,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Fs3.ogg"
+        },
+        {
+          "name": "Fs4.ogg",
+          "size": 113035,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Fs4.ogg"
+        },
+        {
+          "name": "G2.ogg",
+          "size": 314819,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/G2.ogg"
+        },
+        {
+          "name": "G3.ogg",
+          "size": 130834,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/G3.ogg"
+        },
+        {
+          "name": "G4.ogg",
+          "size": 99239,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/G4.ogg"
+        },
+        {
+          "name": "Gs2.ogg",
+          "size": 225583,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Gs2.ogg"
+        },
+        {
+          "name": "Gs3.ogg",
+          "size": 113949,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Gs3.ogg"
+        },
+        {
+          "name": "Gs4.ogg",
+          "size": 100280,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-acoustic/Gs4.ogg"
+        }
+      ]
+    },
+    "guitar-electric": {
+      "files": [
+        {
+          "name": "A2.ogg",
+          "size": 103572,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/A2.ogg"
+        },
+        {
+          "name": "A3.ogg",
+          "size": 98828,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/A3.ogg"
+        },
+        {
+          "name": "A4.ogg",
+          "size": 99822,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/A4.ogg"
+        },
+        {
+          "name": "A5.ogg",
+          "size": 99336,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/A5.ogg"
+        },
+        {
+          "name": "C3.ogg",
+          "size": 103169,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/C3.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 98744,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/C4.ogg"
+        },
+        {
+          "name": "C5.ogg",
+          "size": 94400,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/C5.ogg"
+        },
+        {
+          "name": "C6.ogg",
+          "size": 98361,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/C6.ogg"
+        },
+        {
+          "name": "Cs2.ogg",
+          "size": 103045,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Cs2.ogg"
+        },
+        {
+          "name": "Ds3.ogg",
+          "size": 101517,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Ds3.ogg"
+        },
+        {
+          "name": "Ds4.ogg",
+          "size": 93269,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Ds4.ogg"
+        },
+        {
+          "name": "Ds5.ogg",
+          "size": 93115,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Ds5.ogg"
+        },
+        {
+          "name": "E2.ogg",
+          "size": 101574,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/E2.ogg"
+        },
+        {
+          "name": "Fs2.ogg",
+          "size": 104414,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Fs2.ogg"
+        },
+        {
+          "name": "Fs3.ogg",
+          "size": 103359,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Fs3.ogg"
+        },
+        {
+          "name": "Fs4.ogg",
+          "size": 103784,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Fs4.ogg"
+        },
+        {
+          "name": "Fs5.ogg",
+          "size": 98530,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-electric/Fs5.ogg"
+        }
+      ]
+    },
+    "guitar-nylon": {
+      "files": [
+        {
+          "name": "A2.ogg",
+          "size": 108471,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/A2.ogg"
+        },
+        {
+          "name": "A3.ogg",
+          "size": 74452,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/A3.ogg"
+        },
+        {
+          "name": "A4.ogg",
+          "size": 73589,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/A4.ogg"
+        },
+        {
+          "name": "A5.ogg",
+          "size": 37951,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/A5.ogg"
+        },
+        {
+          "name": "As5.ogg",
+          "size": 36778,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/As5.ogg"
+        },
+        {
+          "name": "B1.ogg",
+          "size": 103201,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/B1.ogg"
+        },
+        {
+          "name": "B2.ogg",
+          "size": 108782,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/B2.ogg"
+        },
+        {
+          "name": "B3.ogg",
+          "size": 69320,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/B3.ogg"
+        },
+        {
+          "name": "B4.ogg",
+          "size": 75022,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/B4.ogg"
+        },
+        {
+          "name": "Cs3.ogg",
+          "size": 107869,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Cs3.ogg"
+        },
+        {
+          "name": "Cs4.ogg",
+          "size": 73410,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Cs4.ogg"
+        },
+        {
+          "name": "Cs5.ogg",
+          "size": 35993,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Cs5.ogg"
+        },
+        {
+          "name": "D2.ogg",
+          "size": 111183,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/D2.ogg"
+        },
+        {
+          "name": "D3.ogg",
+          "size": 111162,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/D3.ogg"
+        },
+        {
+          "name": "D5.ogg",
+          "size": 36768,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/D5.ogg"
+        },
+        {
+          "name": "Ds4.ogg",
+          "size": 73412,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Ds4.ogg"
+        },
+        {
+          "name": "E2.ogg",
+          "size": 108464,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/E2.ogg"
+        },
+        {
+          "name": "E3.ogg",
+          "size": 96856,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/E3.ogg"
+        },
+        {
+          "name": "E4.ogg",
+          "size": 78417,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/E4.ogg"
+        },
+        {
+          "name": "E5.ogg",
+          "size": 34632,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/E5.ogg"
+        },
+        {
+          "name": "Fs2.ogg",
+          "size": 89397,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Fs2.ogg"
+        },
+        {
+          "name": "Fs3.ogg",
+          "size": 106942,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Fs3.ogg"
+        },
+        {
+          "name": "Fs4.ogg",
+          "size": 74784,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Fs4.ogg"
+        },
+        {
+          "name": "Fs5.ogg",
+          "size": 37387,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Fs5.ogg"
+        },
+        {
+          "name": "G3.ogg",
+          "size": 68546,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/G3.ogg"
+        },
+        {
+          "name": "G5.ogg",
+          "size": 38454,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/G5.ogg"
+        },
+        {
+          "name": "Gs2.ogg",
+          "size": 108026,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Gs2.ogg"
+        },
+        {
+          "name": "Gs4.ogg",
+          "size": 38282,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Gs4.ogg"
+        },
+        {
+          "name": "Gs5.ogg",
+          "size": 38429,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/guitar-nylon/Gs5.ogg"
+        }
+      ]
+    },
+    "harmonium": {
+      "files": [
+        {
+          "name": "A2.ogg",
+          "size": 254162,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/A2.ogg"
+        },
+        {
+          "name": "A3.ogg",
+          "size": 191954,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/A3.ogg"
+        },
+        {
+          "name": "A4.ogg",
+          "size": 206010,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/A4.ogg"
+        },
+        {
+          "name": "As2.ogg",
+          "size": 209044,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/As2.ogg"
+        },
+        {
+          "name": "As3.ogg",
+          "size": 210707,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/As3.ogg"
+        },
+        {
+          "name": "As4.ogg",
+          "size": 180669,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/As4.ogg"
+        },
+        {
+          "name": "B2.ogg",
+          "size": 190212,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/B2.ogg"
+        },
+        {
+          "name": "B3.ogg",
+          "size": 187291,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/B3.ogg"
+        },
+        {
+          "name": "B4.ogg",
+          "size": 175864,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/B4.ogg"
+        },
+        {
+          "name": "C2.ogg",
+          "size": 370040,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/C2.ogg"
+        },
+        {
+          "name": "C3.ogg",
+          "size": 287422,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/C3.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 234826,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/C4.ogg"
+        },
+        {
+          "name": "C5.ogg",
+          "size": 168522,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/C5.ogg"
+        },
+        {
+          "name": "Cs2.ogg",
+          "size": 284764,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Cs2.ogg"
+        },
+        {
+          "name": "Cs3.ogg",
+          "size": 185618,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Cs3.ogg"
+        },
+        {
+          "name": "Cs4.ogg",
+          "size": 208866,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Cs4.ogg"
+        },
+        {
+          "name": "Cs5.ogg",
+          "size": 172168,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Cs5.ogg"
+        },
+        {
+          "name": "D2.ogg",
+          "size": 221272,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/D2.ogg"
+        },
+        {
+          "name": "D3.ogg",
+          "size": 171853,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/D3.ogg"
+        },
+        {
+          "name": "D4.ogg",
+          "size": 219130,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/D4.ogg"
+        },
+        {
+          "name": "D5.ogg",
+          "size": 190758,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/D5.ogg"
+        },
+        {
+          "name": "Ds2.ogg",
+          "size": 250826,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Ds2.ogg"
+        },
+        {
+          "name": "Ds3.ogg",
+          "size": 197298,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Ds3.ogg"
+        },
+        {
+          "name": "Ds4.ogg",
+          "size": 218682,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Ds4.ogg"
+        },
+        {
+          "name": "E2.ogg",
+          "size": 344893,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/E2.ogg"
+        },
+        {
+          "name": "E3.ogg",
+          "size": 176636,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/E3.ogg"
+        },
+        {
+          "name": "E4.ogg",
+          "size": 205916,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/E4.ogg"
+        },
+        {
+          "name": "F2.ogg",
+          "size": 366605,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/F2.ogg"
+        },
+        {
+          "name": "F3.ogg",
+          "size": 178533,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/F3.ogg"
+        },
+        {
+          "name": "F4.ogg",
+          "size": 244917,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/F4.ogg"
+        },
+        {
+          "name": "Fs2.ogg",
+          "size": 205108,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Fs2.ogg"
+        },
+        {
+          "name": "Fs3.ogg",
+          "size": 222718,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Fs3.ogg"
+        },
+        {
+          "name": "G2.ogg",
+          "size": 296731,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/G2.ogg"
+        },
+        {
+          "name": "G3.ogg",
+          "size": 233835,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/G3.ogg"
+        },
+        {
+          "name": "G4.ogg",
+          "size": 205512,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/G4.ogg"
+        },
+        {
+          "name": "Gs2.ogg",
+          "size": 280142,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Gs2.ogg"
+        },
+        {
+          "name": "Gs3.ogg",
+          "size": 228531,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Gs3.ogg"
+        },
+        {
+          "name": "Gs4.ogg",
+          "size": 149486,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harmonium/Gs4.ogg"
+        }
+      ]
+    },
+    "harp": {
+      "files": [
+        {
+          "name": "A2.ogg",
+          "size": 314433,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/A2.ogg"
+        },
+        {
+          "name": "A4.ogg",
+          "size": 324115,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/A4.ogg"
+        },
+        {
+          "name": "A6.ogg",
+          "size": 101494,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/A6.ogg"
+        },
+        {
+          "name": "B1.ogg",
+          "size": 375341,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/B1.ogg"
+        },
+        {
+          "name": "B3.ogg",
+          "size": 305218,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/B3.ogg"
+        },
+        {
+          "name": "B5.ogg",
+          "size": 122209,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/B5.ogg"
+        },
+        {
+          "name": "B6.ogg",
+          "size": 79637,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/B6.ogg"
+        },
+        {
+          "name": "C3.ogg",
+          "size": 257529,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/C3.ogg"
+        },
+        {
+          "name": "C5.ogg",
+          "size": 189813,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/C5.ogg"
+        },
+        {
+          "name": "D2.ogg",
+          "size": 284628,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/D2.ogg"
+        },
+        {
+          "name": "D4.ogg",
+          "size": 296401,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/D4.ogg"
+        },
+        {
+          "name": "D6.ogg",
+          "size": 107183,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/D6.ogg"
+        },
+        {
+          "name": "D7.ogg",
+          "size": 62239,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/D7.ogg"
+        },
+        {
+          "name": "E1.ogg",
+          "size": 626760,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/E1.ogg"
+        },
+        {
+          "name": "E3.ogg",
+          "size": 390420,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/E3.ogg"
+        },
+        {
+          "name": "E5.ogg",
+          "size": 174929,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/E5.ogg"
+        },
+        {
+          "name": "F2.ogg",
+          "size": 500384,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/F2.ogg"
+        },
+        {
+          "name": "F4.ogg",
+          "size": 293466,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/F4.ogg"
+        },
+        {
+          "name": "F6.ogg",
+          "size": 67358,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/F6.ogg"
+        },
+        {
+          "name": "F7.ogg",
+          "size": 52853,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/F7.ogg"
+        },
+        {
+          "name": "G1.ogg",
+          "size": 204841,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/G1.ogg"
+        },
+        {
+          "name": "G3.ogg",
+          "size": 273776,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/G3.ogg"
+        },
+        {
+          "name": "G5.ogg",
+          "size": 167345,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/harp/G5.ogg"
+        }
+      ]
+    },
+    "organ": {
+      "files": [
+        {
+          "name": "A1.ogg",
+          "size": 316065,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/A1.ogg"
+        },
+        {
+          "name": "A2.ogg",
+          "size": 291268,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/A2.ogg"
+        },
+        {
+          "name": "A3.ogg",
+          "size": 283775,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/A3.ogg"
+        },
+        {
+          "name": "A4.ogg",
+          "size": 255100,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/A4.ogg"
+        },
+        {
+          "name": "A5.ogg",
+          "size": 251877,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/A5.ogg"
+        },
+        {
+          "name": "C1.ogg",
+          "size": 306655,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/C1.ogg"
+        },
+        {
+          "name": "C2.ogg",
+          "size": 298078,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/C2.ogg"
+        },
+        {
+          "name": "C3.ogg",
+          "size": 268675,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/C3.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 271707,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/C4.ogg"
+        },
+        {
+          "name": "C5.ogg",
+          "size": 258288,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/C5.ogg"
+        },
+        {
+          "name": "C6.ogg",
+          "size": 230387,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/C6.ogg"
+        },
+        {
+          "name": "Ds1.ogg",
+          "size": 299136,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/Ds1.ogg"
+        },
+        {
+          "name": "Ds2.ogg",
+          "size": 304118,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/Ds2.ogg"
+        },
+        {
+          "name": "Ds3.ogg",
+          "size": 271364,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/Ds3.ogg"
+        },
+        {
+          "name": "Ds4.ogg",
+          "size": 270068,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/Ds4.ogg"
+        },
+        {
+          "name": "Ds5.ogg",
+          "size": 242933,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/Ds5.ogg"
+        },
+        {
+          "name": "Fs1.ogg",
+          "size": 310962,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/Fs1.ogg"
+        },
+        {
+          "name": "Fs2.ogg",
+          "size": 284016,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/Fs2.ogg"
+        },
+        {
+          "name": "Fs3.ogg",
+          "size": 263991,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/Fs3.ogg"
+        },
+        {
+          "name": "Fs4.ogg",
+          "size": 265030,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/Fs4.ogg"
+        },
+        {
+          "name": "Fs5.ogg",
+          "size": 241430,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/organ/Fs5.ogg"
+        }
+      ]
+    },
+    "saxophone": {
+      "files": [
+        {
+          "name": "A4.ogg",
+          "size": 132616,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/A4.ogg"
+        },
+        {
+          "name": "A5.ogg",
+          "size": 133208,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/A5.ogg"
+        },
+        {
+          "name": "As3.ogg",
+          "size": 136415,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/As3.ogg"
+        },
+        {
+          "name": "As4.ogg",
+          "size": 120588,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/As4.ogg"
+        },
+        {
+          "name": "B3.ogg",
+          "size": 189350,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/B3.ogg"
+        },
+        {
+          "name": "B4.ogg",
+          "size": 139857,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/B4.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 156893,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/C4.ogg"
+        },
+        {
+          "name": "C5.ogg",
+          "size": 131877,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/C5.ogg"
+        },
+        {
+          "name": "Cs3.ogg",
+          "size": 218180,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Cs3.ogg"
+        },
+        {
+          "name": "Cs4.ogg",
+          "size": 164773,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Cs4.ogg"
+        },
+        {
+          "name": "Cs5.ogg",
+          "size": 144640,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Cs5.ogg"
+        },
+        {
+          "name": "D3.ogg",
+          "size": 159359,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/D3.ogg"
+        },
+        {
+          "name": "D4.ogg",
+          "size": 169352,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/D4.ogg"
+        },
+        {
+          "name": "D5.ogg",
+          "size": 151272,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/D5.ogg"
+        },
+        {
+          "name": "Ds3.ogg",
+          "size": 200657,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Ds3.ogg"
+        },
+        {
+          "name": "Ds4.ogg",
+          "size": 143683,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Ds4.ogg"
+        },
+        {
+          "name": "Ds5.ogg",
+          "size": 121618,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Ds5.ogg"
+        },
+        {
+          "name": "E3.ogg",
+          "size": 178205,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/E3.ogg"
+        },
+        {
+          "name": "E4.ogg",
+          "size": 158809,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/E4.ogg"
+        },
+        {
+          "name": "E5.ogg",
+          "size": 133868,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/E5.ogg"
+        },
+        {
+          "name": "F3.ogg",
+          "size": 174755,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/F3.ogg"
+        },
+        {
+          "name": "F4.ogg",
+          "size": 142808,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/F4.ogg"
+        },
+        {
+          "name": "F5.ogg",
+          "size": 136479,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/F5.ogg"
+        },
+        {
+          "name": "Fs3.ogg",
+          "size": 182805,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Fs3.ogg"
+        },
+        {
+          "name": "Fs4.ogg",
+          "size": 137527,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Fs4.ogg"
+        },
+        {
+          "name": "Fs5.ogg",
+          "size": 134299,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Fs5.ogg"
+        },
+        {
+          "name": "G3.ogg",
+          "size": 116040,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/G3.ogg"
+        },
+        {
+          "name": "G4.ogg",
+          "size": 130100,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/G4.ogg"
+        },
+        {
+          "name": "G5.ogg",
+          "size": 139092,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/G5.ogg"
+        },
+        {
+          "name": "Gs3.ogg",
+          "size": 173045,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Gs3.ogg"
+        },
+        {
+          "name": "Gs4.ogg",
+          "size": 158459,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Gs4.ogg"
+        },
+        {
+          "name": "Gs5.ogg",
+          "size": 127269,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/saxophone/Gs5.ogg"
+        }
+      ]
+    },
+    "trombone": {
+      "files": [
+        {
+          "name": "As1.ogg",
+          "size": 138536,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/As1.ogg"
+        },
+        {
+          "name": "As2.ogg",
+          "size": 508645,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/As2.ogg"
+        },
+        {
+          "name": "As3.ogg",
+          "size": 155520,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/As3.ogg"
+        },
+        {
+          "name": "C3.ogg",
+          "size": 151648,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/C3.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 601122,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/C4.ogg"
+        },
+        {
+          "name": "Cs2.ogg",
+          "size": 210579,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/Cs2.ogg"
+        },
+        {
+          "name": "Cs4.ogg",
+          "size": 517974,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/Cs4.ogg"
+        },
+        {
+          "name": "D3.ogg",
+          "size": 436670,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/D3.ogg"
+        },
+        {
+          "name": "D4.ogg",
+          "size": 143400,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/D4.ogg"
+        },
+        {
+          "name": "Ds2.ogg",
+          "size": 341011,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/Ds2.ogg"
+        },
+        {
+          "name": "Ds3.ogg",
+          "size": 170461,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/Ds3.ogg"
+        },
+        {
+          "name": "Ds4.ogg",
+          "size": 644884,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/Ds4.ogg"
+        },
+        {
+          "name": "F2.ogg",
+          "size": 367938,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/F2.ogg"
+        },
+        {
+          "name": "F3.ogg",
+          "size": 574440,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/F3.ogg"
+        },
+        {
+          "name": "F4.ogg",
+          "size": 678134,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/F4.ogg"
+        },
+        {
+          "name": "Gs2.ogg",
+          "size": 149388,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/Gs2.ogg"
+        },
+        {
+          "name": "Gs3.ogg",
+          "size": 160165,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trombone/Gs3.ogg"
+        }
+      ]
+    },
+    "trumpet": {
+      "files": [
+        {
+          "name": "A3.ogg",
+          "size": 122589,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/A3.ogg"
+        },
+        {
+          "name": "A5.ogg",
+          "size": 149016,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/A5.ogg"
+        },
+        {
+          "name": "As4.ogg",
+          "size": 158584,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/As4.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 120674,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/C4.ogg"
+        },
+        {
+          "name": "C6.ogg",
+          "size": 136145,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/C6.ogg"
+        },
+        {
+          "name": "D5.ogg",
+          "size": 136223,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/D5.ogg"
+        },
+        {
+          "name": "Ds4.ogg",
+          "size": 175747,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/Ds4.ogg"
+        },
+        {
+          "name": "F3.ogg",
+          "size": 116851,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/F3.ogg"
+        },
+        {
+          "name": "F4.ogg",
+          "size": 143798,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/F4.ogg"
+        },
+        {
+          "name": "F5.ogg",
+          "size": 133884,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/F5.ogg"
+        },
+        {
+          "name": "G4.ogg",
+          "size": 186760,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/trumpet/G4.ogg"
+        }
+      ]
+    },
+    "tuba": {
+      "files": [
+        {
+          "name": "As1.ogg",
+          "size": 210459,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/tuba/As1.ogg"
+        },
+        {
+          "name": "As2.ogg",
+          "size": 200506,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/tuba/As2.ogg"
+        },
+        {
+          "name": "As3.ogg",
+          "size": 176419,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/tuba/As3.ogg"
+        },
+        {
+          "name": "D3.ogg",
+          "size": 327876,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/tuba/D3.ogg"
+        },
+        {
+          "name": "D4.ogg",
+          "size": 244034,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/tuba/D4.ogg"
+        },
+        {
+          "name": "Ds2.ogg",
+          "size": 205904,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/tuba/Ds2.ogg"
+        },
+        {
+          "name": "F1.ogg",
+          "size": 107272,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/tuba/F1.ogg"
+        },
+        {
+          "name": "F2.ogg",
+          "size": 255680,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/tuba/F2.ogg"
+        },
+        {
+          "name": "F3.ogg",
+          "size": 426609,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/tuba/F3.ogg"
+        }
+      ]
+    },
+    "violin": {
+      "files": [
+        {
+          "name": "A3.ogg",
+          "size": 448978,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A3.ogg"
+        },
+        {
+          "name": "A4.ogg",
+          "size": 353946,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A4.ogg"
+        },
+        {
+          "name": "A5.ogg",
+          "size": 266344,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A5.ogg"
+        },
+        {
+          "name": "A6.ogg",
+          "size": 244061,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/A6.ogg"
+        },
+        {
+          "name": "C4.ogg",
+          "size": 339251,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C4.ogg"
+        },
+        {
+          "name": "C5.ogg",
+          "size": 327821,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C5.ogg"
+        },
+        {
+          "name": "C6.ogg",
+          "size": 284826,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C6.ogg"
+        },
+        {
+          "name": "C7.ogg",
+          "size": 257142,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/C7.ogg"
+        },
+        {
+          "name": "E4.ogg",
+          "size": 351173,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/E4.ogg"
+        },
+        {
+          "name": "E5.ogg",
+          "size": 344075,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/E5.ogg"
+        },
+        {
+          "name": "E6.ogg",
+          "size": 310914,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/E6.ogg"
+        },
+        {
+          "name": "G3.ogg",
+          "size": 436648,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/G3.ogg"
+        },
+        {
+          "name": "G4.ogg",
+          "size": 354292,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/G4.ogg"
+        },
+        {
+          "name": "G5.ogg",
+          "size": 302493,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/G5.ogg"
+        },
+        {
+          "name": "G6.ogg",
+          "size": 261408,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/violin/G6.ogg"
+        }
+      ]
+    },
+    "xylophone": {
+      "files": [
+        {
+          "name": "C5.ogg",
+          "size": 77618,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/xylophone/C5.ogg"
+        },
+        {
+          "name": "C6.ogg",
+          "size": 44971,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/xylophone/C6.ogg"
+        },
+        {
+          "name": "C7.ogg",
+          "size": 36274,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/xylophone/C7.ogg"
+        },
+        {
+          "name": "C8.ogg",
+          "size": 29597,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/xylophone/C8.ogg"
+        },
+        {
+          "name": "G4.ogg",
+          "size": 85713,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/xylophone/G4.ogg"
+        },
+        {
+          "name": "G5.ogg",
+          "size": 58730,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/xylophone/G5.ogg"
+        },
+        {
+          "name": "G6.ogg",
+          "size": 40050,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/xylophone/G6.ogg"
+        },
+        {
+          "name": "G7.ogg",
+          "size": 35692,
+          "download_url": "https://raw.githubusercontent.com/nbrosowsky/tonejs-instruments/622c2f1c32c8cfce4158ddc3eb26e518ddef37e5/samples/xylophone/G7.ogg"
+        }
+      ]
+    }
+  }
+}

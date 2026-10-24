@@ -1,0 +1,1023 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App Changes Tracker</title>
+<style>
+  :root{
+    --bg:#f3f1ea;
+    --bg-raised:#ffffff;
+    --line:#ddd8cc;
+    --text:#22221d;
+    --text-dim:#6f6b5d;
+    --accent:#2f7d74;
+    --accent-contrast:#ffffff;
+    --amber:#a6672c;
+    --rose:#a83f34;
+    --shadow:rgba(30,28,20,0.08);
+    --mono: ui-monospace, SFMono-Regular, "JetBrains Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12141c;
+      --bg-raised:#181b26;
+      --line:#2a2e3a;
+      --text:#e8e6e0;
+      --text-dim:#9195a3;
+      --accent:#5fa8a0;
+      --accent-contrast:#0d1712;
+      --amber:#d9a05b;
+      --rose:#c97064;
+      --shadow:rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12141c;
+    --bg-raised:#181b26;
+    --line:#2a2e3a;
+    --text:#e8e6e0;
+    --text-dim:#9195a3;
+    --accent:#5fa8a0;
+    --accent-contrast:#0d1712;
+    --amber:#d9a05b;
+    --rose:#c97064;
+    --shadow:rgba(0,0,0,0.35);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--sans);
+    padding:40px 20px 90px;
+    min-height:100vh;
+  }
+  .wrap{max-width:760px; margin:0 auto;}
+
+  header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:16px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:22px;
+    margin-bottom:30px;
+    flex-wrap:wrap;
+  }
+  h1{
+    font-size:1.55rem;
+    margin:0 0 4px;
+    letter-spacing:-0.01em;
+    text-wrap:balance;
+  }
+  .sub{
+    color:var(--text-dim);
+    font-size:0.85rem;
+    font-family:var(--mono);
+  }
+  .sync-note{
+    font-size:0.72rem;
+    color:var(--text-dim);
+    font-family:var(--mono);
+    background:var(--bg-raised);
+    border:1px solid var(--line);
+    padding:7px 11px;
+    border-radius:6px;
+    max-width:230px;
+    line-height:1.45;
+    box-shadow:0 1px 2px var(--shadow);
+  }
+
+  .controls{
+    display:flex;
+    gap:10px;
+    margin-bottom:26px;
+    flex-wrap:wrap;
+  }
+  input, textarea, select{
+    background:var(--bg-raised);
+    border:1px solid var(--line);
+    color:var(--text);
+    font-family:var(--sans);
+    font-size:0.9rem;
+    padding:9px 11px;
+    border-radius:6px;
+    outline:none;
+  }
+  input:focus, textarea:focus, select:focus{
+    border-color:var(--accent);
+    box-shadow:0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
+  }
+  .search{flex:1; min-width:160px;}
+  .filter-select{min-width:170px;}
+
+  button{
+    font-family:var(--sans);
+    font-size:0.85rem;
+    font-weight:600;
+    border-radius:6px;
+    border:1px solid transparent;
+    cursor:pointer;
+    padding:9px 16px;
+  }
+  button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible{
+    outline:2px solid var(--accent);
+    outline-offset:2px;
+  }
+  .btn-primary{background:var(--accent); color:var(--accent-contrast);}
+  .btn-primary:hover{filter:brightness(1.08);}
+  .btn-ghost{background:transparent; border-color:var(--line); color:var(--text-dim);}
+  .btn-ghost:hover{color:var(--text); border-color:var(--text-dim);}
+
+  form.entry-form{
+    background:var(--bg-raised);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:18px;
+    margin-bottom:32px;
+    display:none;
+    box-shadow:0 1px 3px var(--shadow);
+  }
+  form.entry-form.open{display:block;}
+  .form-row{display:flex; gap:10px; margin-bottom:10px; flex-wrap:wrap;}
+  .form-row > *{flex:1; min-width:140px;}
+  .form-row label{
+    display:block;
+    font-family:var(--mono);
+    font-size:0.7rem;
+    color:var(--text-dim);
+    margin-bottom:4px;
+    letter-spacing:0.02em;
+  }
+  textarea{width:100%; min-height:70px; resize:vertical; font-family:var(--sans);}
+  .form-actions{display:flex; gap:8px; justify-content:flex-end; margin-top:6px;}
+
+  .project-group{margin-bottom:32px;}
+  .project-group[data-local-hidden]{display:none;}
+  .project-title{
+    font-family:var(--mono);
+    font-size:0.95rem;
+    font-weight:600;
+    color:var(--amber);
+    margin:0 0 14px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .project-title::before{content:"#"; opacity:0.6; font-weight:400;}
+
+  .entries{
+    position:relative;
+    padding-left:22px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+  }
+  .entries::before{
+    content:"";
+    position:absolute;
+    left:5px;
+    top:6px;
+    bottom:6px;
+    width:1px;
+    background:var(--line);
+  }
+  .entry{position:relative;}
+  .entry[data-local-hidden]{display:none;}
+  .entry::before{
+    content:"";
+    position:absolute;
+    left:-22px;
+    top:5px;
+    width:9px;
+    height:9px;
+    border-radius:50%;
+    background:var(--accent);
+    border:2px solid var(--bg);
+    box-shadow:0 0 0 1px var(--accent);
+  }
+  .entry-head{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:5px;
+  }
+  .version{
+    font-family:var(--mono);
+    font-weight:600;
+    color:var(--text);
+    background:var(--bg-raised);
+    border:1px solid var(--line);
+    padding:2px 8px;
+    border-radius:5px;
+    font-size:0.82rem;
+  }
+  .date{
+    font-family:var(--mono);
+    font-size:0.75rem;
+    color:var(--text-dim);
+    font-variant-numeric:tabular-nums;
+  }
+  .desc{
+    font-size:0.92rem;
+    line-height:1.55;
+    color:var(--text);
+    margin:4px 0 9px;
+    max-width:64ch;
+  }
+  .entry-foot{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+  .repo-link{
+    font-family:var(--mono);
+    font-size:0.78rem;
+    color:var(--accent);
+    text-decoration:none;
+    border-bottom:1px dotted var(--accent);
+  }
+  .repo-link:hover{filter:brightness(1.15);}
+  .no-link{
+    font-family:var(--mono);
+    font-size:0.78rem;
+    color:var(--text-dim);
+    font-style:italic;
+  }
+  .entry-actions{
+    margin-left:auto;
+    display:flex;
+    gap:12px;
+  }
+  .icon-btn{
+    background:none;
+    border:none;
+    color:var(--text-dim);
+    font-size:0.75rem;
+    font-family:var(--mono);
+    padding:2px 4px;
+    cursor:pointer;
+  }
+  .icon-btn:hover{color:var(--text);}
+  .icon-btn.danger:hover{color:var(--rose);}
+
+  .empty{
+    text-align:center;
+    color:var(--text-dim);
+    font-family:var(--mono);
+    font-size:0.85rem;
+    padding:60px 20px;
+    border:1px dashed var(--line);
+    border-radius:10px;
+  }
+  .status{
+    font-family:var(--mono);
+    font-size:0.75rem;
+    color:var(--text-dim);
+    margin-bottom:14px;
+    min-height:1em;
+  }
+  .status.error{color:var(--rose);}
+
+  [artifact-sync-state="off"]{
+    outline:1px dashed var(--rose);
+    outline-offset:6px;
+    border-radius:10px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div>
+      <h1>App Changes Tracker</h1>
+      <div class="sub">DDW Academy V.0.12 · based on V.0.11 · version log</div>
+    </div>
+    <div class="sync-note">Shared log — visible and editable by anyone using this tool, including other sessions or bots you hand it to.</div>
+  </header>
+
+  <div class="status" id="status"></div>
+
+  <div class="controls">
+    <input class="search" id="searchInput" type="text" placeholder="Search project, version, or description…">
+    <select class="filter-select" id="projectFilter">
+      <option value="">All projects</option>
+    </select>
+    <button type="button" class="btn-primary" id="addBtn">+ Add version</button>
+  </div>
+
+  <form class="entry-form" id="entryForm">
+    <div class="form-row">
+      <div>
+        <label for="fProject">Project</label>
+        <input id="fProject" type="text" placeholder="e.g. DDW Academy" required>
+      </div>
+      <div>
+        <label for="fVersion">Version</label>
+        <input id="fVersion" type="text" placeholder="e.g. P5 b14" required>
+      </div>
+      <div>
+        <label for="fDate">Date</label>
+        <input id="fDate" type="date">
+      </div>
+    </div>
+    <div class="form-row">
+      <div style="flex:1 1 100%;">
+        <label for="fRepo">GitHub repo link (for this version)</label>
+        <input id="fRepo" type="url" placeholder="https://github.com/user/repo/commit/...">
+      </div>
+    </div>
+    <div class="form-row">
+      <div style="flex:1 1 100%;">
+        <label for="fDesc">Description — what changed</label>
+        <textarea id="fDesc" placeholder="What changed in this version, for someone reading the log later…"></textarea>
+      </div>
+    </div>
+    <div class="form-actions">
+      <button type="button" class="btn-ghost" id="cancelBtn">Cancel</button>
+      <button type="submit" class="btn-primary" id="saveBtn">Save entry</button>
+    </div>
+  </form>
+
+  <div class="empty" id="emptyState" hidden>No entries match your search.</div>
+
+  <div id="log" artifact-sync>
+
+    <div class="project-group" data-project="DDW Academy">
+      <h2 class="project-title">DDW Academy</h2>
+      <div class="entries">
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">Docs cleanup</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Removed RECOVERY.md — its recovery narrative is superseded by LOG.md (append-only session history) and HANDOFF.md (current-state, replace-in-place), the pattern already used for the rest of this rebuild's documentation. No course content or code touched.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/eab5632" target="_blank" rel="noopener">eab5632</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">V.0.12</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Snapshot of the remaining-courses-build session (worktree remaining-courses-build-b71ffc; writes landed on master at c20302a, per the main-checkout-only rule). Based on DDW-Academy-V.0.11 (created 2026-08-18 15:44 UTC). Replaces the old 8-level / 48-lesson piano course with Piano Playing for Beginners (16 modules, 51 sections, 252 lessons, Gates A–K). Adds the complete AI Tools for Music Production track (13 required modules, 34 sections, 34 lessons, Gates A–K; Module 7 Live Suite Stem Separation stays BONUS/PARKED). Combined app validates at 29 levels / 85 modules / 286 lessons / 520 section checks, zero hard failures. New tooling: tools/convert/ (scaffold, delatex, resolve-citation), draft-step-checks.mjs, validate-course --module, and the gap() block. Drums pilots were removed for the rebuild; the other 12 tracks still read Coming Soon. Tracker and README ship together in this version repo.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy-V.0.12" target="_blank" rel="noopener">https://github.com/mkomorny/DDW-Academy-V.0.12</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">AI P1 COMPLETE</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored the remaining 5 modules (10 Suno, 11 Ozone Master Assistant, 12 Audiolens, 13 Usage Log and Terms, 14 Combined Jobs; 13 sections, 13 lessons) in one uninterrupted pass, finishing the AI Tools for Music Production course. Module 11 and part of 12/14 cite the real 'Ozone 12 user guide' — the first iZotope citation resolved in this course. All 39 step checks AI-drafted and entailment-verified. Wired Levels 10-14 and four new gates (H Suno into Live, I Assistive Master, J Usage Log & Terms, K Multi-Tool Integration). Full course now validates clean at 29 levels / 85 modules / 286 lessons / 520 checks, zero hard failures — all 13 required AI Tools modules complete. Live-verified via CDP with zero console errors across every new lesson.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/36b2038...3a3a282" target="_blank" rel="noopener">36b2038⋯3a3a282</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">AI P1 b8</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 9 (Claude, Grok, Gemini, Sections 9.1-9.2: grounding a text assistant with an 8-bullet Session Fact Sheet and constraining its output to a structured Markdown mixing checklist with explicit [UNVERIFIED ASSUMPTION] flags verified in Live 12, then drafting and hand-curating a Suno Custom Mode prompt kit) in full. Section 9.1 cites real 'Prompting best practices', 'Structured outputs', and 'Reduce hallucinations' docs — the first non-Ableton citation resolved in this course. Section 9.2 carries no sources() block (no official Suno docs exist locally). 7/7 step checks AI-drafted and entailment-verified on first attempt. Wired Level 9 and a new Gate G (Text Assistant) into the app; live-verified via CDP.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/5862aed...36b2038" target="_blank" rel="noopener">5862aed⋯36b2038</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">AI P1 b7</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 8 (Use stems and MIDI in Live, Sections 8.1-8.3: the mandatory Warp → Transient Refine → Convert order of operations, hybrid part replacement with Operator/Drum Rack while retaining clean stems, and non-destructive bouncing/archiving) in full. Entirely Live-native, so all three sections cite the Ableton Live 12 Manual — no citation gap this module. Module 7 stays BONUS/PARKED, so Level numbering jumps from 6 to 8. 9/9 step checks AI-drafted and entailment-verified (one step's list/prose was rewritten to name each sequence action separately before its check passed verification). Wired Level 8 and a new Gate F (Stems in Live) into the app; live-verified via CDP.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/59eef19...676aa0c" target="_blank" rel="noopener">59eef19⋯676aa0c</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">AI P1 b6</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 6 (SpleeterGUI, Sections 6.1-6.2: 2/4/5-stem model selection and the Windows/macOS split-run procedure, plus an objective Moises-vs-SpleeterGUI-vs-Live decision matrix and stem-to-conversion-tool routing) in full. Section 6.1 carries no sources() block (Spleeter/SpleeterGUI aren't Ableton documentation); 6.2 cites the Ableton Live 12 Manual for its one Live-native claim. 6/6 step checks AI-drafted and entailment-verified on first attempt. Wired Level 6 and a new Gate E (Local 2/4/5 path) into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/8a171b9...105e75a" target="_blank" rel="noopener">8a171b9⋯105e75a</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">AI P1 b5</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 5 (Moises Desktop, Sections 5.1-5.3: install/sign-in/upload with the account-tier separation matrix, BPM/key detection + WAV export + Live import, the optional Moises Stems plug-in) in full. Moises isn't an Ableton product, so these three sections carry no sources() block — the prose is still hand-converted from the real textbook file. 9/9 step checks AI-drafted and entailment-verified (one step's closing text was extended to restate its own reasoning before its check passed verification). Wired Level 5 and a new Gate D (Moises path) into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/dd4f464...5c8a179" target="_blank" rel="noopener">dd4f464⋯5c8a179</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">AI P1 b4</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 4 (MIDI Tools, Sections 4.1-4.4: Transform/Generate architecture and Auto Apply, Arpeggiate/Chop/Connect/Time Warp, Rhythm/Seed/Shape, Stacks/Euclidean) in full, all four citing the Ableton Live 12 Manual §11.0-11.3.5. Seed is described exactly as "a constrained pseudo-random generator," never a melody model, per the section's own guardrail. 12/12 step checks AI-drafted and entailment-verified on first attempt. Wired Level 4 and a new Gate C (MIDI Tools) into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/d0a53e0...aa18589" target="_blank" rel="noopener">d0a53e0⋯aa18589</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">AI P1 b3</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 3 (Slice and Convert, Sections 3.1-3.3: Slice to New MIDI Track, Convert Harmony/Melody, Convert Drums) in full, all three citing the Ableton Live 12 Manual §13.1-13.5. Diagrams promoted for the signal-flow charts (slice pipeline, conversion routing, frequency-band-to-pad mapping). 9/9 step checks AI-drafted and entailment-verified on first attempt. Wired Level 3 and a new Gate B (Conversion path) into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/ec1b940...ea0f9fa" target="_blank" rel="noopener">ec1b940⋯ea0f9fa</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">AI P1 b2</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 2 (Live folders and WAV interchange, Sections 2.1-2.2) in full, both citing the Ableton Live 12 Manual for genuinely-grounded claims (Collect All and Save, the §13.5 audio-to-MIDI quality quote as a source block quote). 7/7 step checks AI-drafted and entailment-verified. Wired Level 2 and a new Gate A into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/7d0018b...41e1d58" target="_blank" rel="noopener">7d0018b⋯41e1d58</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">AI P1 b1</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Started building 4 more courses (AI Tools, Max for Live, Bass Station II, Ableton Note) per Miranda's instruction to proceed without the per-course go-ahead gate, since all source material already exists on the Desktop. Komplete Kontrol, Spatial Audio, and Audio DSP are skipped — no source folders exist for them. Wrote a bespoke scaffold generator for AI Tools' syllabus format, scaffolded all 13 required modules/34 sections (Module 7, Live Suite Stem Separation, is BONUS/PARKED and excluded), then hand-authored Module 1 in full (Toolbox Launch &amp; Edition Verification, Source Authorization &amp; Legal Grounding) with a promoted hub-and-spoke tool-matrix diagram and a permissible/non-permissible source decision-tree diagram. 6/6 step checks AI-drafted and entailment-verified on first attempt. Wired Level 1 into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/dd31e9d...7d0018b" target="_blank" rel="noopener">dd31e9d⋯7d0018b</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">P5 b33</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 16 Sections 16.1–16.3 in full (The Seven Church Modes, Modern Studio Workflow, and the Master Capstone Recital/Gate K) in one pass, completing the entire 51-section, 16-module, 252-lesson Piano course. First live use of scaleExplorer() with the mined library's own church-mode scale ids and first use of the gap() block (for an uncited SINE Player velocity-layer claim). Resolved Section 16.2's bare-folder Ableton manual citation against the known-sources.json corpus title. Wired Level 16 into the app with a new Gate K. Ran the course-completion smoke test (tools/smoke-electron.mjs) for the first time since the rebuild began — 15/15 passed.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/b76d5a8...96ff083" target="_blank" rel="noopener">b76d5a8⋯96ff083</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">P5 b32</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 15 Sections 15.1–15.3 in full (The Pedal — pedal physics/hardware/CC64, syncopated pedaling choreography, and half-pedaling/repertoire applications including a Chopin Prelude excerpt), completing Module 15. Second live use of chordExplorer() on a repertoire excerpt (Chopin's E Minor Prelude), and a deliberate table-not-progression() choice for a slash chord (G/B) since that block has no inversion concept. Wired Level 15 into the app (no new gate — Module 15 has none of its own; Gate K belongs to Module 16).</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/13eba06...78f226c" target="_blank" rel="noopener">13eba06⋯78f226c</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">P5 b28-31</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 13 Section 13.3, completing Module 13 (Clementi &amp; Bach Literature Études), plus Module 14 Sections 14.1–14.3, completing Module 14 (Lead Sheets, Playing by Ear II, Arrangement Lab) in one chained pass under a fourth explicit chaining instruction — the first batch to complete two modules at once. First use of chordExplorer() on a repertoire excerpt and of a dominant-7th chord symbol (D7) in progression(). Wired Level 13 (no new gate) and Level 14 with a new Gate J into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/ec662d9...b1da813" target="_blank" rel="noopener">ec662d9⋯b1da813</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">P5 b24-27</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 12 Sections 12.3–12.4, completing Module 12 (Arpeggios &amp; Cross-Hand Sweeps, Repertoire Lab II), plus Module 13 Sections 13.1–13.2 (Ledger Lines, Sight-Reading Craft) in one chained pass under a third explicit chaining instruction. First use of chordExplorer() to confirm arpeggio pitch content and of a grand-staff block spanning all five C landmarks (C2–C6) in one call. Wired Level 12 and Gate I into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/652c250...12d7fe9" target="_blank" rel="noopener">652c250⋯12d7fe9</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">P5 b20-23</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Authored Module 11 Sections 11.3–11.4, completing Module 11 (Seventh Chords &amp; Shell Voicings, Roman Numeral Harmony), plus Module 12 Sections 12.1–12.2 (Blocked Chords, Alberti Bass) in one chained pass under a second explicit chaining instruction. First live use of chordExplorer() with all five seventh-chord qualities and the progression() block. Wired Level 11 into the app (no new gate — Module 11 has none of its own).</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/36ec0a6...df1a9b7" target="_blank" rel="noopener">36ec0a6⋯df1a9b7</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b16-19</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Module 10 Sections 10.3–10.4, completing Module 10 (Circle of Fifths, Chromatic Scale), plus Module 11 Sections 11.1–11.2 (Triads, Inversions) in one chained pass under an explicit chaining instruction. First live use of circleOfFifths() and chordExplorer() with dim/aug qualities. Wired Level 10 and Gate H into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/43ee8e7...a7f0139" target="_blank" rel="noopener">43ee8e7⋯a7f0139</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b15</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Module 9 Sections 9.2–9.3, completing Module 9 (Scale vs. Key), plus Module 10 Sections 10.1–10.2 (12 Major Scales, 3 Minor Scale Forms) in one chained pass under an explicit one-time override. First live use of scaleExplorer() and the keySignature theory assert. Wired Level 9 and Gate G into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/e52b38b...daa337c" target="_blank" rel="noopener">e52b38b⋯daa337c</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b14</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Module 9 Section 9.1 (Intervals).</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/7a35716...7721340" target="_blank" rel="noopener">7a35716⋯7721340</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b13</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Section 7.3, completing Module 7 (Time), plus Module 8 Sections 8.1–8.3, completing Touch and Expression (22 lessons total). Wired Level 7, Level 8, and Gate F into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/4b8e8bf...4e8419a" target="_blank" rel="noopener">4b8e8bf⋯4e8419a</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b12</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Module 6 Sections 6.2–6.3, completing Two Hands (Gate E), plus Module 7 Sections 7.1–7.2 (23 lessons total). Wired Level 6 and Gate E.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/68036f4...57ef6e9" target="_blank" rel="noopener">68036f4⋯57ef6e9</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b11</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Module 5, Five-Finger Fluency (Sections 5.1–5.3, 16 lessons) plus Section 6.1. Wired Level 5 and Gate D.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/1ef2971...6d7e2ae" target="_blank" rel="noopener">1ef2971⋯6d7e2ae</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b10</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Module 4, The Page (Sections 4.1–4.3, 17 lessons). Wired Level 4 into the app (no new gate).</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/c0be9ee...cc0372b" target="_blank" rel="noopener">c0be9ee⋯cc0372b</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b7–9</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Module 3, First Music (Sections 3.1–3.3, 18 lessons). Wired Level 3 and Gate C.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/3803481...f3f4b58" target="_blank" rel="noopener">3803481⋯f3f4b58</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b6</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Section 2.3, completing Module 2. Wired Level 2 and Gate B into the app.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/8b97958...193e788" target="_blank" rel="noopener">8b97958⋯193e788</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b5</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Section 2.2 (6 lessons, 12 steps).</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/9b6ecc2...5489a21" target="_blank" rel="noopener">9b6ecc2⋯5489a21</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b4</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Section 2.1 (6 lessons, 12 steps).</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/e482dc8...8b4e2f5" target="_blank" rel="noopener">e482dc8⋯8b4e2f5</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b3</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Section 1.3 (7 lessons), completing Module 1. Wired Level 1 and Gate A into the app and fixed a level.duration leak.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/63b4b42...606f286" target="_blank" rel="noopener">63b4b42⋯606f286</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b2</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Authored Section 1.2 (7 lessons, 14 steps) and fixed an exercise-id shape defect.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/28d69de...92a6425" target="_blank" rel="noopener">28d69de⋯92a6425</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-17">
+          <div class="entry-head"><span class="version">P5 b1</span><span class="date">Aug 17, 2026</span></div>
+          <p class="desc">Hand-authored Section 1.1 (8 lessons) from the textbook. Corrected to draft check questions via the AI client instead of by hand, and added validate-course.mjs's --module mode.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/337de90...845895e" target="_blank" rel="noopener">337de90⋯845895e</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-16">
+          <div class="entry-head"><span class="version">P5 go</span><span class="date">Aug 16, 2026</span></div>
+          <p class="desc">Resolved the AI-credit blocker for check-question drafting, recorded the go-ahead to begin authoring, and fixed a markdown-bold leak into plain-text course fields.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/compare/75cdfed...8e99a8b" target="_blank" rel="noopener">75cdfed⋯8e99a8b</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-16">
+          <div class="entry-head"><span class="version">P0–P4</span><span class="date">Aug 16, 2026</span></div>
+          <p class="desc">Piano rebuild pre-flight: removed the old hand-authored Piano/Drums material and scaffolded the new 16-module Piano syllabus from Miranda's rewritten textbook.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/2c65a24" target="_blank" rel="noopener">2c65a24</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-18">
+          <div class="entry-head"><span class="version">V.0.11</span><span class="date">Aug 18, 2026</span></div>
+          <p class="desc">Snapshot of worktree quirky-williams-ac9170 at commit 9fe6611. Based on DDW-Academy-V.0.10 (created 2026-08-18 05:37 UTC). Phase 0R recovery: drums course loading repaired, Settings reachable from every route, track-aware dashboard counts, NUL-byte validator fix, reserved drums pilot ids, the drums-l1-1-1 authoring spec, and the HANDOFF / LOG / RECOVERY documents. Desktop drums draft reconciliation recorded through batch 6 (42 of 47 files). Piano/AI Tools rebuilds that happened later on master are not in this tree.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy-V.0.11" target="_blank" rel="noopener">https://github.com/mkomorny/DDW-Academy-V.0.11</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-15">
+          <div class="entry-head"><span class="version">worktree</span><span class="date">Aug 15, 2026</span></div>
+          <p class="desc">Cleaned up stray git worktrees and rescued orphaned fixes and design assets.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/9fe6611" target="_blank" rel="noopener">9fe6611</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-15">
+          <div class="entry-head"><span class="version">recon 6</span><span class="date">Aug 15, 2026</span></div>
+          <p class="desc">Draft reconciliation batch 6: reconciled 42 of 47 files, completing folders 09–10.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/de4c657" target="_blank" rel="noopener">de4c657</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-15">
+          <div class="entry-head"><span class="version">recon 5</span><span class="date">Aug 15, 2026</span></div>
+          <p class="desc">Draft reconciliation batch 5: reconciled 35 of 47 files, completing folder 08.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/041b048" target="_blank" rel="noopener">041b048</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-15">
+          <div class="entry-head"><span class="version">recon 4</span><span class="date">Aug 15, 2026</span></div>
+          <p class="desc">Draft reconciliation batch 4: reconciled 28 of 47 files, completing folder 07.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/87ca7ab" target="_blank" rel="noopener">87ca7ab</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-15">
+          <div class="entry-head"><span class="version">renumber</span><span class="date">Aug 15, 2026</span></div>
+          <p class="desc">Retrofitted the Step 1 display-renumbering fix across the 21 draft files already reconciled.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/60a915d" target="_blank" rel="noopener">60a915d</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-15">
+          <div class="entry-head"><span class="version">handoff-fix</span><span class="date">Aug 15, 2026</span></div>
+          <p class="desc">Fixed a file-count contradiction in HANDOFF.md and documented an expanded lesson-renumbering rule.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/85afec6" target="_blank" rel="noopener">85afec6</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-15">
+          <div class="entry-head"><span class="version">recon 1–3</span><span class="date">Aug 15, 2026</span></div>
+          <p class="desc">Draft reconciliation batches 1–3: reconciled 21 of 47 course draft files against the canonical source material.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/8356457" target="_blank" rel="noopener">8356457</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-15">
+          <div class="entry-head"><span class="version">0R</span><span class="date">Aug 15, 2026</span></div>
+          <p class="desc">Phase 0R complete: recovered from a parallel-course/import-pipeline violation and restored the single hand-authored source of truth.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/728e8c5" target="_blank" rel="noopener">728e8c5</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-14">
+          <div class="entry-head"><span class="version">track-aware</span><span class="date">Aug 14, 2026</span></div>
+          <p class="desc">Made the dashboard's headline text and document counts track-aware instead of hardcoded to one course.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/9b2dd47" target="_blank" rel="noopener">9b2dd47</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-14">
+          <div class="entry-head"><span class="version">nul-fix</span><span class="date">Aug 14, 2026</span></div>
+          <p class="desc">Fixed stray NUL bytes that had corrupted tools/validate-course.mjs.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/136dffe" target="_blank" rel="noopener">136dffe</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-14">
+          <div class="entry-head"><span class="version">0R.0b</span><span class="date">Aug 14, 2026</span></div>
+          <p class="desc">Checkpointed uncommitted work on master before starting the Phase 0R recovery.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/e420a90" target="_blank" rel="noopener">e420a90</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-13">
+          <div class="entry-head"><span class="version">0.3–0.4</span><span class="date">Aug 13, 2026</span></div>
+          <p class="desc">Repaired Drums course loading and wrote the first HANDOFF.md handoff document.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/cbd1efb" target="_blank" rel="noopener">cbd1efb</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+        <div class="entry" data-date="2026-08-13">
+          <div class="entry-head"><span class="version">baseline</span><span class="date">Aug 13, 2026</span></div>
+          <p class="desc">Copied the live working tree into a fresh git repo as the starting commit for tracked development.</p>
+          <div class="entry-foot">
+            <a class="repo-link" href="https://github.com/mkomorny/DDW-Academy/commit/a8b20b1" target="_blank" rel="noopener">a8b20b1</a>
+            <span class="entry-actions"><button type="button" class="icon-btn edit-btn">edit</button><button type="button" class="icon-btn danger del-btn">delete</button></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+(function(){
+  const statusEl = document.getElementById('status');
+  const logEl = document.getElementById('log');
+  const emptyEl = document.getElementById('emptyState');
+  const form = document.getElementById('entryForm');
+  const addBtn = document.getElementById('addBtn');
+  const cancelBtn = document.getElementById('cancelBtn');
+  const searchInput = document.getElementById('searchInput');
+  const projectFilter = document.getElementById('projectFilter');
+  const fProject = document.getElementById('fProject');
+  const fVersion = document.getElementById('fVersion');
+  const fDate = document.getElementById('fDate');
+  const fRepo = document.getElementById('fRepo');
+  const fDesc = document.getElementById('fDesc');
+
+  let editingEntry = null;
+
+  function setStatus(msg, isError){
+    statusEl.textContent = msg || '';
+    statusEl.className = 'status' + (isError ? ' error' : '');
+  }
+
+  function fmtDate(iso){
+    if(!iso) return '';
+    const parts = iso.split('-');
+    if(parts.length !== 3) return iso;
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return months[parseInt(parts[1],10)-1] + ' ' + parseInt(parts[2],10) + ', ' + parts[0];
+  }
+
+  function shortLink(url){
+    const m = url.match(/\/commit\/([0-9a-f]{5,40})\b/) || url.match(/\/compare\/([0-9a-f]{5,40})\.\.\.([0-9a-f]{5,40})/);
+    if(!m) return url;
+    return m[2] ? (m[1] + '⋯' + m[2]) : m[1];
+  }
+
+  function findProjectGroup(name){
+    return Array.from(logEl.querySelectorAll('.project-group')).find(g => g.dataset.project === name);
+  }
+
+  function createProjectGroup(name){
+    const group = document.createElement('div');
+    group.className = 'project-group';
+    group.dataset.project = name;
+    const title = document.createElement('h2');
+    title.className = 'project-title';
+    title.textContent = name;
+    const entries = document.createElement('div');
+    entries.className = 'entries';
+    group.appendChild(title);
+    group.appendChild(entries);
+
+    const existing = Array.from(logEl.querySelectorAll('.project-group'));
+    const before = existing.find(g => g.dataset.project.localeCompare(name) > 0);
+    if(before) logEl.insertBefore(group, before);
+    else logEl.appendChild(group);
+    return group;
+  }
+
+  function buildEntryEl(data){
+    const entry = document.createElement('div');
+    entry.className = 'entry';
+    entry.dataset.date = data.date || '';
+
+    const head = document.createElement('div');
+    head.className = 'entry-head';
+    const version = document.createElement('span');
+    version.className = 'version';
+    version.textContent = data.version;
+    const date = document.createElement('span');
+    date.className = 'date';
+    date.textContent = fmtDate(data.date);
+    head.appendChild(version);
+    head.appendChild(date);
+
+    const desc = document.createElement('p');
+    desc.className = 'desc';
+    desc.textContent = data.description || '';
+
+    const foot = document.createElement('div');
+    foot.className = 'entry-foot';
+    if(data.repoUrl){
+      const a = document.createElement('a');
+      a.className = 'repo-link';
+      a.href = data.repoUrl;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = shortLink(data.repoUrl);
+      foot.appendChild(a);
+    } else {
+      const span = document.createElement('span');
+      span.className = 'no-link';
+      span.textContent = 'no repo link';
+      foot.appendChild(span);
+    }
+    const actions = document.createElement('span');
+    actions.className = 'entry-actions';
+    const editBtn = document.createElement('button');
+    editBtn.type = 'button';
+    editBtn.className = 'icon-btn edit-btn';
+    editBtn.textContent = 'edit';
+    const delBtn = document.createElement('button');
+    delBtn.type = 'button';
+    delBtn.className = 'icon-btn danger del-btn';
+    delBtn.textContent = 'delete';
+    actions.appendChild(editBtn);
+    actions.appendChild(delBtn);
+    foot.appendChild(actions);
+
+    entry.appendChild(head);
+    entry.appendChild(desc);
+    entry.appendChild(foot);
+
+    editBtn.addEventListener('click', () => openForm(entry));
+    delBtn.addEventListener('click', () => {
+      if(confirm('Delete this entry?')){
+        const group = entry.closest('.project-group');
+        entry.remove();
+        if(group && !group.querySelector('.entry')) group.remove();
+        refreshAll();
+      }
+    });
+
+    return entry;
+  }
+
+  function insertSorted(entriesEl, entry){
+    const rows = Array.from(entriesEl.querySelectorAll('.entry'));
+    const before = rows.find(r => (r.dataset.date || '') < entry.dataset.date);
+    if(before) entriesEl.insertBefore(entry, before);
+    else entriesEl.appendChild(entry);
+  }
+
+  function openForm(entry){
+    editingEntry = entry || null;
+    form.classList.add('open');
+    if(entry){
+      const group = entry.closest('.project-group');
+      fProject.value = group ? group.dataset.project : '';
+      fVersion.value = entry.querySelector('.version').textContent;
+      fDate.value = entry.dataset.date || '';
+      const link = entry.querySelector('.repo-link');
+      fRepo.value = link ? link.getAttribute('href') : '';
+      fDesc.value = entry.querySelector('.desc').textContent;
+    } else {
+      form.reset();
+      fDate.value = new Date().toISOString().slice(0,10);
+    }
+    fProject.focus();
+  }
+
+  function closeForm(){
+    form.classList.remove('open');
+    form.reset();
+    editingEntry = null;
+  }
+
+  addBtn.addEventListener('click', () => openForm(null));
+  cancelBtn.addEventListener('click', closeForm);
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const data = {
+      project: fProject.value.trim(),
+      version: fVersion.value.trim(),
+      date: fDate.value,
+      repoUrl: fRepo.value.trim(),
+      description: fDesc.value.trim()
+    };
+    if(!data.project || !data.version){
+      setStatus('Project and version are required.', true);
+      return;
+    }
+
+    if(editingEntry){
+      const oldGroup = editingEntry.closest('.project-group');
+      const rebuilt = buildEntryEl(data);
+      editingEntry.replaceWith(rebuilt);
+      const target = findProjectGroup(data.project) || createProjectGroup(data.project);
+      insertSorted(target.querySelector('.entries'), rebuilt);
+      if(oldGroup && oldGroup !== target && !oldGroup.querySelector('.entry')) oldGroup.remove();
+    } else {
+      const group = findProjectGroup(data.project) || createProjectGroup(data.project);
+      const entry = buildEntryEl(data);
+      insertSorted(group.querySelector('.entries'), entry);
+    }
+
+    setStatus('');
+    closeForm();
+    refreshAll();
+  });
+
+  function refreshAll(){
+    updateProjectFilterOptions();
+    applyFilter();
+  }
+
+  function updateProjectFilterOptions(){
+    const projects = Array.from(logEl.querySelectorAll('.project-group'))
+      .map(g => g.dataset.project)
+      .sort((a,b) => a.localeCompare(b));
+    const current = projectFilter.value;
+    projectFilter.innerHTML = '<option value="">All projects</option>' +
+      projects.map(p => `<option value="${p.replace(/"/g,'&quot;')}">${p}</option>`).join('');
+    projectFilter.value = projects.includes(current) ? current : '';
+  }
+
+  function applyFilter(){
+    const query = searchInput.value.trim().toLowerCase();
+    const projFilter = projectFilter.value;
+    let anyVisible = false;
+
+    logEl.querySelectorAll('.project-group').forEach(group => {
+      let groupHasVisible = false;
+      const project = group.dataset.project;
+      group.querySelectorAll('.entry').forEach(entry => {
+        let visible = true;
+        if(projFilter && project !== projFilter) visible = false;
+        if(visible && query){
+          const hay = (project + ' ' + entry.querySelector('.version').textContent + ' ' + entry.querySelector('.desc').textContent).toLowerCase();
+          if(!hay.includes(query)) visible = false;
+        }
+        if(visible){ entry.removeAttribute('data-local-hidden'); groupHasVisible = true; anyVisible = true; }
+        else entry.setAttribute('data-local-hidden', '1');
+      });
+      if(groupHasVisible) group.removeAttribute('data-local-hidden');
+      else group.setAttribute('data-local-hidden', '1');
+    });
+
+    const hasAnyEntries = !!logEl.querySelector('.entry');
+    emptyEl.hidden = !hasAnyEntries || anyVisible;
+    emptyEl.textContent = hasAnyEntries ? 'No entries match your search.' : 'No versions logged yet. Click "+ Add version" to start the log.';
+  }
+
+  searchInput.addEventListener('input', applyFilter);
+  projectFilter.addEventListener('change', applyFilter);
+
+  document.addEventListener('claude:sync-off', () => setStatus('This view can’t save changes here — showing a read-only copy.', true));
+  document.addEventListener('claude:sync-lost', (e) => setStatus('A change didn’t save (' + (e.detail && e.detail.code || 'unknown') + '); it will retry.', true));
+  document.addEventListener('claude:edit', refreshAll);
+
+  refreshAll();
+})();
+</script>
+</body>
+</html>

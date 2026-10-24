@@ -1,0 +1,8644 @@
+{
+ "scales": [
+  {
+   "id": "aeolian-dominant-scales",
+   "name": "Aeolian Dominant Scales",
+   "aliases": [
+    "Hindu Scale",
+    "Major-Minor Scale",
+    "Mixolydian b6"
+   ],
+   "slugUrl": "aeolian-dominant",
+   "steps": [
+    2,
+    2,
+    1,
+    2,
+    1,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "b6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole",
+    "Half",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Aeolian Dominant (Hindu Scale) The Aeolian Dominant Scale is often referred to as the Hindu Scale, and therefore suitable for Indian music. The scale includes a minor seventh interval, which is the reason for it being called \u201cdominant\u201d. This scale can also be referred to as the Major-Minor Scale \u2013 the blend of the Major and Minor are noticeable. The Aeolian Dominant is the fifth mode of the Melodic Minor Scale and similar to the Aeolian",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "aeolian-dominant-scales"
+  },
+  {
+   "id": "aeolian-scales",
+   "name": "Aeolian Scales - overview with pictures",
+   "aliases": [],
+   "slugUrl": "aeolian",
+   "steps": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "5",
+    "b6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Aeolian Mode The Aeolian Scale consists of the same notes as the Natural Minor Scale. Songs in the Aeolian Mode tend to have a sad feeling and the scale is quite common in modern blues and jazz compositions. See also Aeolian Dominant. Nothing separates the Aeolian scales from the Minor scales, except if the Minor scales are not Natural (which is the most common of the minor scales), but Harmonic or Melodic. The main role of the Aeolian Mode is as the sixth mode of the Major Scale. The A Aeolian",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "aeolian-scales"
+  },
+  {
+   "id": "algerian-scales",
+   "name": "Algerian Scales",
+   "aliases": [],
+   "slugUrl": "algerian",
+   "steps": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1,
+    3,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "#4",
+    "5",
+    "b6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    ""
+   ],
+   "noteCount": 8,
+   "description": "Algerian Scale The Algerian Scale has eight notes and the easiest way to memorize them are by the intervals. The first thing that you should give attention to in the Algerian scales is the three semitones that follow in a sequence from note four to seven. In total, the scale has four half tones (see \u201cFormula\u201d below). This scale is for anyone who likes music from the Middle East or just want to try something exotic. Additionally, there is an extended version of this scale, which is presented below the",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "A",
+      "A#",
+      "C#",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "B",
+      "C",
+      "D#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "B",
+      "C",
+      "Db",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "D",
+      "D#",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "D#",
+      "E",
+      "F",
+      "G#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "F#",
+      "G",
+      "A#",
+      "B"
+     ]
+    }
+   },
+   "source": "algerian-scales"
+  },
+  {
+   "id": "balinese-scale",
+   "name": "Balinese Scales - overview with pictures",
+   "aliases": [
+    "Balinese Pelog Scale",
+    "Selisir"
+   ],
+   "slugUrl": "balinese",
+   "steps": [
+    1,
+    2,
+    4,
+    1,
+    4
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "b3",
+    "5",
+    "b6"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole",
+    "Quadra"
+   ],
+   "noteCount": 5,
+   "description": "Balinese Scale The Balinese Scale (or Balinese Pelog Scale) consists of five notes, which makes it a pentatonic scale. The intervals include two half steps, one whole step and two quadra steps (see interval pattern below). This scale can be treated as a mode built from a seven-note scale, (Pelog Selisir), and the particular one presented here with pictures is to be called Selisir.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "Eb",
+      "G",
+      "Ab",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F",
+      "A",
+      "Bb",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G",
+      "A",
+      "C",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "Ab",
+      "C",
+      "Db",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "Bb",
+      "D",
+      "Eb",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C",
+      "E",
+      "F",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D",
+      "F#",
+      "G",
+      "B"
+     ]
+    }
+   },
+   "source": "balinese-scale"
+  },
+  {
+   "id": "byzantine-scale",
+   "name": "Byzantine Scale",
+   "aliases": [
+    "Double Harmonic Scale"
+   ],
+   "slugUrl": "byzantine",
+   "steps": [
+    1,
+    3,
+    1,
+    2,
+    1,
+    3,
+    1
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "3",
+    "4",
+    "5",
+    "b6",
+    "7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole and a"
+   ],
+   "noteCount": 7,
+   "description": "Byzantine Scale The Byzantine Scale, also known as the Double Harmonic Scale, has a configuration that produces an exotic sound. What characterizes this scale are the whole and a half step intervals between the second and third as well as the sixth and seventh notes (see interval pattern below). The easiest way to learn the Byzantine scales is probably by comparing them with the Major scales. The only differences are the second and sixth notes which both are lowered.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "E",
+      "F",
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "C#",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "D#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "A",
+      "Bb",
+      "C",
+      "Db",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "A#",
+      "B"
+     ]
+    }
+   },
+   "source": "byzantine-scale"
+  },
+  {
+   "id": "chinese-scale",
+   "name": "Chinese Scale",
+   "aliases": [],
+   "slugUrl": "chinese",
+   "steps": [
+    4,
+    2,
+    1,
+    4,
+    1
+   ],
+   "degrees": [
+    "1",
+    "3",
+    "#4",
+    "5",
+    "7"
+   ],
+   "formulaWords": [
+    "Quadra"
+   ],
+   "noteCount": 5,
+   "description": "Chinese Scale As implied by its name, this scale is suitable for playing Chinese music (see also the Oriental Scale). The Chinese scales are sometimes used in jazz improvisation. The Chinese Scale has a quite uncommon feature in the two quadra steps: first to second note and fourth to fifth note. Another peculiar detail is that a harmony note is added to every single note in the scale (see below for explanation).",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "E",
+      "F#",
+      "G",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "F#",
+      "G#",
+      "A",
+      "C#",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "G#",
+      "A#",
+      "B",
+      "D#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "A",
+      "B",
+      "C",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "B",
+      "C#",
+      "D",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "C#",
+      "D#",
+      "E",
+      "G#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "D#",
+      "E#",
+      "F#",
+      "A#",
+      "B"
+     ]
+    }
+   },
+   "source": "chinese-scale"
+  },
+  {
+   "id": "chromatic-scales",
+   "name": "Chromatic Scales",
+   "aliases": [],
+   "slugUrl": "chromatic",
+   "steps": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "2",
+    "b3",
+    "3",
+    "4",
+    "b5",
+    "5",
+    "#5",
+    "6",
+    "b7",
+    "7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Half",
+    "Half",
+    "Half",
+    "Half",
+    "Half",
+    "Half",
+    "Half",
+    "Half",
+    "Half",
+    "Half",
+    "Half"
+   ],
+   "noteCount": 12,
+   "description": "Chromatic Scale The Chromatic Scale consists of twelve notes, each are one semitone apart and is also called the Half-tone Scale. The Chromatic Scale can be compared with the contrary diatonic scale which follow a pattern of whole and half steps. As the picture below shows, all notes in the octave are included. Chromatic scales are not very useful as groundworks for a composition, instead they can be integrated in passages to add color and movement. For example, in a",
+   "roots": {},
+   "source": "chromatic-scales"
+  },
+  {
+   "id": "diminished-scales",
+   "name": "Diminished Scales",
+   "aliases": [
+    "Whole-Half Scale"
+   ],
+   "slugUrl": "diminished",
+   "steps": [
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "b5",
+    "b6",
+    "6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    ""
+   ],
+   "noteCount": 8,
+   "description": "Diminished Scale The Diminished Scale is built upon two diminished seventh chords. In the C Diminished Scale this would be C - Eb - Gb - A (Cdim7) and D - F - Ab - B (Ddim7). This scale is primarily used in jazz music and works well together with alternate seventh chords. The Diminished Scale is also referred to as the Whole-Half Scale since it is constructed by every second whole and half steps. It should be noticed that this is a symmetrical scale as",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "Gb",
+      "Ab",
+      "A",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "B",
+      "C#",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "D#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "Gb",
+      "Ab",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "B"
+     ]
+    }
+   },
+   "source": "diminished-scales"
+  },
+  {
+   "id": "dominant-bebop-mixolydian-bebop-scales",
+   "name": "Dominant Bebop (Mixolydian Bebop) Scales",
+   "aliases": [
+    "Mixolydian Bebop",
+    "Jazz Dominant Scale"
+   ],
+   "slugUrl": "bebop-dominant",
+   "steps": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "b7",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole",
+    ""
+   ],
+   "noteCount": 8,
+   "description": "Dominant Bebop Scale The Dominant Bebop Scale is one of four Bebop scales. The other three are Major Bebop, Minor Bebop and Dorian Bebop. As the name imply, this scale is well suitable for jazz and bebop especially. One of the common practices is to use the scale over a ii-V progression. For example, G Dominant Bebop scale over the chords Dm7 - G7 (backing track can be found below). The intervals for Bebop Dominant are 1, 2, 3, 4, 5, 6, b7, 7 (with the passing note between the",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "Gb",
+      "G",
+      "A",
+      "B",
+      "C",
+      "C#",
+      "D",
+      "D#",
+      "Eb"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "D#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "A#",
+      "B"
+     ]
+    }
+   },
+   "source": "dominant-bebop-mixolydian-bebop-scales"
+  },
+  {
+   "id": "dominant-diminished-scales",
+   "name": "Dominant Diminished Scales",
+   "aliases": [
+    "Diminished Blues",
+    "Half-Whole Diminished Scale",
+    "Half-tone/Whole-tone"
+   ],
+   "slugUrl": "dominant-diminished",
+   "steps": [
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "#2",
+    "3",
+    "#4",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 8,
+   "description": "Dominant Diminished Scale (Diminished Blues) Scale The Dominant Diminished Scale consists of eight notes, and therefore belongs to the category of octatonic scales. It is also a so-called symmetrical scale since the intervals are consistent (see interval pattern below). The half tone, whole tone formula is consistent throughout the scale, for which reason it is sometimes called the Half-Whole Diminished Scale or Half-tone/Whole-tone Scale. With both b9 (b2) and #9 (#2) as well as m7 intervals,",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "Eb",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G",
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "A#",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Eb",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D",
+      "D#",
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "dominant-diminished-scales"
+  },
+  {
+   "id": "dominant-pentatonic",
+   "name": "Dominant Pentatonic Scale",
+   "aliases": [],
+   "steps": [
+    2,
+    2,
+    3,
+    3,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "b7"
+   ],
+   "description": "A five-note scale built on the dominant seventh chord tones plus the second. Compact and consonant over any V7 chord.",
+   "source": "dominant-scales",
+   "sourcePdf": "Dominant scales.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 5,
+   "curated": true
+  },
+  {
+   "id": "dorian-add-5-scale",
+   "name": "Dorian Add 5 Scale",
+   "aliases": [],
+   "slugUrl": "dorian-add5",
+   "steps": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "b5",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    ""
+   ],
+   "noteCount": 8,
+   "description": "Dorian add 5 can be seen as a hybrid scale between the Major and Minor Blues Pentatonic and based on the Dorian mode. The scale is identical with the Dorian apart from the added flat fifth. It is an eight-note scale and must not be confused with the Dorian b5. Whereas the Dorian mode is associated with jazz, the Dorian add 5 will deliver a bluesy sound but not as distinct as for the Blues Scale and with a slight Oriental character. It is",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "Gb",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "Ab",
+      "A",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "Db",
+      "D",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "dorian-add-5-scale"
+  },
+  {
+   "id": "dorian-b2-scales",
+   "name": "Dorian B2 Scales",
+   "aliases": [
+    "Dorian b9"
+   ],
+   "slugUrl": "dorian-b2",
+   "steps": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "b3",
+    "4",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Dorian b2 is identical with the Dorian apart from the lowered second. Besides being associated with Assyrian music, the scale is an exotic pick for jazz. It can be seen as a mode of the Melodic Minor Scale. For example, except for the order of notes, D Dorian b2 (D, Eb, F, G, A, B, C) is identical with C Melodic Minor (C, D, Eb, F, G, A, B). The Dorian b2 is one of three altered Dorian scales. The other two are Dorian #4 (Ukrainian",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "dorian-b2-scales"
+  },
+  {
+   "id": "dorian-b5-scales",
+   "name": "Dorian B5 Scales",
+   "aliases": [],
+   "slugUrl": "dorian-b5",
+   "steps": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "b5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Dorian b5 is identical with the Dorian apart from the flatted fifth. Due to the presence of the diminished fifth interval, which characterize diminished chords, the scale is sometimes referred to as the Dorian Diminished. It can be seen as a mode of the Harmonic Major Scale. For example, except for the order of notes, D Dorian b5 (D, E, F, G, Ab, B, C) is identical with C Harmonic Major (C, D, E, F, G, Ab, B). The Dorian b5 are together with Dorian b2 and Dorian #4 altered Dorian scales. It is a seven-",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "Gb",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "Cb",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "Db",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "dorian-b5-scales"
+  },
+  {
+   "id": "dorian-bebop-scale",
+   "name": "Dorian Bebop Scale",
+   "aliases": [],
+   "slugUrl": "bebop-dorian",
+   "steps": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "5",
+    "6",
+    "b7",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    ""
+   ],
+   "noteCount": 8,
+   "description": "The Dorian Bebop Scale is one of four Bebop scales. The other three are Major Bebop, Minor Bebop and Dominant Bebop. As the name imply, this scale is fitting for bebop jazz. Bebop Dorian is similar to the Minor Bebop, only one note differs. It is also the same as Dorian with one extra note. (Note that there are two versions of the Dorian Bebop with either a minor 3rd or a major 7th as passing note.)",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B",
+      "C",
+      "C#",
+      "D",
+      "D#",
+      "Eb"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "D#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "F",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "A#",
+      "B"
+     ]
+    }
+   },
+   "source": "dorian-bebop-scale"
+  },
+  {
+   "id": "dorian-pentatonic-scales",
+   "name": "Dorian Pentatonic Scales",
+   "aliases": [
+    "John Coltrane Pentatonic Scale",
+    "Kumo\u00ef"
+   ],
+   "slugUrl": "dorian-pentatonic",
+   "steps": [
+    2,
+    1,
+    4,
+    2,
+    3
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "5",
+    "6"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Quadra"
+   ],
+   "noteCount": 5,
+   "description": "Dorian Pentatonic Dorian Pentatonic scale is similar to the Dorian mode, but without the 4th and 6th degrees. For example, D Dorian Pentatonic includes the notes D, E, F, A, B whereas the septonic D Dorian includes the notes D, E, F, G, A, B, C. Dorian Pentatonic is often confused with Minor Pentatonic. Notice that Dorian Pentatonic has one flat, while Minor Pentatonic has two (see interval pattern below).",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "G",
+      "A",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "A",
+      "B",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "B",
+      "C#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "C",
+      "D",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "D",
+      "E",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "F#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "F#",
+      "G#",
+      "B"
+     ]
+    }
+   },
+   "source": "dorian-pentatonic-scales"
+  },
+  {
+   "id": "dorian-scales",
+   "name": "Dorian Scales",
+   "aliases": [],
+   "slugUrl": "dorian",
+   "steps": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Dorian Mode The Dorian Scale, or mode, is the second of the seven modes. The Dorian modes are comparable to the Major scales \u2013 D Dorian, for example, includes the same notes as C Major. The difference is that D Dorian starts from another degree in the scale, the D note (see picture below). It also has a different interval pattern (1 2 b3 4 5 6 b7), which results in a Minor sound. What distinguish Dorian from the Minor Scale is only the major 6th interval. It could be",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "1": {
+     "display": "C# / Db",
+     "notes": [
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G#",
+      "A#",
+      "B",
+      "C#"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "3": {
+     "display": "D# /Eb",
+     "notes": [
+      "D#",
+      "F",
+      "F#",
+      "G#",
+      "A#",
+      "C",
+      "C#",
+      "D#"
+     ],
+     "lh": [
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      2,
+      3
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "6": {
+     "display": "F# / Gb",
+     "notes": [
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      4
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "8": {
+     "display": "G# / Ab",
+     "notes": [
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D#",
+      "F",
+      "F#",
+      "G#"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      3,
+      2
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "10": {
+     "display": "A# / Bb",
+     "notes": [
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "Bb"
+     ],
+     "lh": [
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    }
+   },
+   "source": "dorian-scales"
+  },
+  {
+   "id": "egyptian-scales",
+   "name": "Egyptian Scales - overview with pictures",
+   "aliases": [],
+   "slugUrl": "egyptian",
+   "steps": [
+    2,
+    3,
+    2,
+    3,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole and a half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 5,
+   "description": "Egyptian Scales The Egyptian Scale is built by five notes, making it a pentatonic scale type. This scale can be referred to different names. The scales displayed in diagrams below can be called Egyptian, but you may witness musical scales built differently also being called Egyptian scales. For these Egyptian scales, you may notice some similarities with the Dorian mode.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "F",
+      "G",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "G",
+      "A",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "A",
+      "B",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A#",
+      "C",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "C",
+      "D",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "E",
+      "F#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "egyptian-scales"
+  },
+  {
+   "id": "eight-tone-spanish-scales",
+   "name": "Eight Tone Spanish Scales",
+   "aliases": [],
+   "slugUrl": "eight-tone-spanish",
+   "steps": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "b3",
+    "3",
+    "4",
+    "b5",
+    "b6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    ""
+   ],
+   "noteCount": 8,
+   "description": "The Spanish Eight Tone Scale has its heritage from the medieval period. It shares aspects with the Jewish eight-tone scales and is common in Jewish music. These scales are also Flamenco sounding, and therefore more common among guitar players than piano players. See also Spanish Gypsy Scale.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "C#",
+      "D#",
+      "E",
+      "F",
+      "F#",
+      "G#",
+      "A#",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "D#",
+      "F",
+      "F#",
+      "G",
+      "G#",
+      "A#",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G",
+      "G#",
+      "A",
+      "A#",
+      "C",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "A#",
+      "B",
+      "C#",
+      "D#",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "G#",
+      "A#",
+      "B",
+      "C",
+      "C#",
+      "D#",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "A#",
+      "C",
+      "C#",
+      "D",
+      "D#",
+      "F",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D",
+      "D#",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "eight-tone-spanish-scales"
+  },
+  {
+   "id": "enigmatic-major",
+   "name": "Enigmatic Major Scale",
+   "aliases": [
+    "Scala Enigmatica"
+   ],
+   "steps": [
+    1,
+    3,
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "3",
+    "#4",
+    "#5",
+    "#6",
+    "7"
+   ],
+   "description": "Devised by Giuseppe Verdi as a compositional puzzle. It mixes a flat second with a raised fourth, fifth and sixth, producing a scale that belongs to no conventional key.",
+   "source": "enigmatic-scales",
+   "sourcePdf": "Enigmatic Scales.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 7,
+   "curated": true
+  },
+  {
+   "id": "enigmatic-minor",
+   "name": "Enigmatic Minor Scale",
+   "aliases": [],
+   "steps": [
+    1,
+    2,
+    3,
+    1,
+    3,
+    1,
+    1
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "b3",
+    "#4",
+    "5",
+    "#6",
+    "7"
+   ],
+   "description": "The minor-flavored variant of Verdi's enigmatic scale, with a flat third and two augmented steps.",
+   "source": "enigmatic-scales",
+   "sourcePdf": "Enigmatic Scales.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 7,
+   "curated": true
+  },
+  {
+   "id": "geez-scales",
+   "name": "Geez Scales",
+   "aliases": [
+    "Ezel Scale"
+   ],
+   "slugUrl": "ethiopian-geez",
+   "steps": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "5",
+    "b6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Geez Scales The Geez Scale (also known as Ezel Scale) is an Ethiopian scale, and in its form identical to the Aeolian Scale. Worth mentioning is that another Ethiopian scale, Ararai, has exactly the same notes as the Major Scale. The Geez scales are well suited for playing music with an Ethiopian sound and own the characteristics of Minor keys.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "geez-scales"
+  },
+  {
+   "id": "harmonic-major",
+   "name": "Harmonic Major Scale",
+   "aliases": [
+    "Ionian b6"
+   ],
+   "steps": [
+    2,
+    2,
+    1,
+    2,
+    1,
+    3,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "b6",
+    "7"
+   ],
+   "description": "The major scale with a lowered sixth degree, creating an augmented second between the sixth and seventh. It is to the major scale what harmonic minor is to natural minor.",
+   "source": "harmonic-major-scales",
+   "sourcePdf": "Harmonic Major Scales.pdf",
+   "erratum": "The source PDF's 'Semitones:' line reads 2-2-1-2-1-2-1, which sums to 11 rather than 12. The same page's 'Formula:' line (Whole, Whole, Half, Whole, Half, Whole-and-a-half, Half) and its 'Intervals:' line (1, 2, 3, 4, 5, b6, 7) both give 2-2-1-2-1-3-1. The corrected figure is used here.",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 7,
+   "curated": true
+  },
+  {
+   "id": "harmonic-minor-scales",
+   "name": "Harmonic Minor Scales",
+   "aliases": [],
+   "slugUrl": "minor-harmonic",
+   "steps": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    3,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "5",
+    "b6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole",
+    "Whole",
+    "Half",
+    "Whole and a half",
+    "Half"
+   ],
+   "noteCount": 7,
+   "description": "The Harmonic Minor Scale is one of three minor scales. The other two are the Natural Minor and the Melodic Minor. The sound of the Harmonic Scale is somewhat characterized by the music of the Middle East by the augmented second interval of the sixth and seventh degrees (which happens when the 7th degree changes a half step and creates a larger gap between the 6th and 7th notes). A common approach is leaning on the seventh note of the scale over a",
+   "roots": {
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G#",
+      "A"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "10": {
+     "display": "A# / Bb",
+     "notes": [
+      "A#",
+      "C",
+      "C#",
+      "D#",
+      "F",
+      "F#",
+      "A",
+      "A#"
+     ],
+     "lh": [
+      2,
+      1,
+      3,
+      2,
+      1,
+      4,
+      3,
+      2
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A#",
+      "B"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "B",
+      "C"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "1": {
+     "display": "C# / Db",
+     "notes": [
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "C",
+      "C#"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C#",
+      "D"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "3": {
+     "display": "D# / Eb",
+     "notes": [
+      "D#",
+      "F",
+      "F#",
+      "G#",
+      "A#",
+      "B",
+      "D",
+      "D#"
+     ],
+     "lh": [
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2
+     ],
+     "rh": [
+      3,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D#",
+      "E"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "Db",
+      "E",
+      "F"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "6": {
+     "display": "F# / Gb",
+     "notes": [
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "F",
+      "F#"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      4
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F#",
+      "G"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "8": {
+     "display": "G# / Ab",
+     "notes": [
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "G",
+      "G#"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+     ]
+    }
+   },
+   "source": "harmonic-minor-scales"
+  },
+  {
+   "id": "hawaiian-scales",
+   "name": "Hawaiian Scales - overview with pictures",
+   "aliases": [],
+   "slugUrl": "hawaiian",
+   "steps": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Hawaiian Scales The Hawaiian Scale consists of seven notes. The intervals include whole steps throughout the scale except for one half steps, and additionally a half step to the note one octave up (see interval pattern below). Note that this scale is identical with the ascending version of the Melodic Minor Scale.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A#",
+      "B"
+     ]
+    }
+   },
+   "source": "hawaiian-scales"
+  },
+  {
+   "id": "hirajoshi-scale",
+   "name": "Hirajoshi Scale",
+   "aliases": [],
+   "slugUrl": "hirajoshi",
+   "steps": [
+    2,
+    1,
+    4,
+    1,
+    4
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "5",
+    "b6"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Quadra"
+   ],
+   "noteCount": 5,
+   "description": "Hirajoshi Scale Hirajoshi is the name of a Japanese Scale that was originally used in shamisen music. The word Hirajoshi is more correctly written with a macron: Hiraj\u014dshi. This is a pentatonic scale (it uses five tones), characterized by two half steps and two quadra steps, see interval pattern below. You may come across the Hirajoshi Scale in other patterns, but the version presented here is probably the most common.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "G",
+      "Ab",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "A",
+      "Bb",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "B",
+      "C",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "C",
+      "Db",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "D",
+      "Eb",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "F",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "F#",
+      "G",
+      "B"
+     ]
+    }
+   },
+   "source": "hirajoshi-scale"
+  },
+  {
+   "id": "hungarian-major",
+   "name": "Hungarian Major Scale",
+   "aliases": [
+    "Hungarian Gypsy Major"
+   ],
+   "steps": [
+    3,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "#2",
+    "3",
+    "#4",
+    "5",
+    "b6",
+    "7"
+   ],
+   "description": "Opens with an augmented second from the root, then alternates half and whole steps. Bright but unstable, common in Bartok and Liszt.",
+   "source": "hungarian-scales",
+   "sourcePdf": "Hungarian Scales.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 7,
+   "curated": true
+  },
+  {
+   "id": "hungarian-minor",
+   "name": "Hungarian Minor Scale",
+   "aliases": [
+    "Gypsy Minor",
+    "Double Harmonic Minor"
+   ],
+   "steps": [
+    2,
+    1,
+    3,
+    1,
+    1,
+    3,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "#4",
+    "5",
+    "b6",
+    "7"
+   ],
+   "description": "The harmonic minor scale with a raised fourth, producing two augmented seconds. Strongly associated with Hungarian and Romani folk music.",
+   "source": "hungarian-scales",
+   "sourcePdf": "Hungarian Scales.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 7,
+   "curated": true
+  },
+  {
+   "id": "iberian-scales",
+   "name": "Iberian Scales",
+   "aliases": [
+    "Iberian Hexatonic Scale"
+   ],
+   "slugUrl": "iberian",
+   "steps": [
+    1,
+    3,
+    1,
+    2,
+    3,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "3",
+    "4",
+    "5",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole and a half",
+    ""
+   ],
+   "noteCount": 6,
+   "description": "Iberian Scales The Iberian Scale has six notes and is also called Iberian Hexatonic Scale (hexa- is prefix for six). One thing that characterize the Iberian scales is the 1 - b2 interval, which is quite uncommon but are located in other scales such as Dominant Diminished, Eight Tone Spanish, Oriental and the Phrygian and Locrian modes. None of these are hexatonic scales although.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "E",
+      "F",
+      "G",
+      "A#",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F#",
+      "G",
+      "A",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G#",
+      "A",
+      "B",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "A",
+      "Bb",
+      "C",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "D",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C#",
+      "D",
+      "E",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D#",
+      "E",
+      "F#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "iberian-scales"
+  },
+  {
+   "id": "hanumatodi",
+   "name": "Indian Scale (Hanumatodi)",
+   "aliases": [
+    "Todi Thaat",
+    "Phrygian b6"
+   ],
+   "steps": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "b3",
+    "4",
+    "5",
+    "b6",
+    "b7"
+   ],
+   "description": "The eighth melakarta raga of Carnatic music, identical in pitch content to the Phrygian mode. One of the most widely used scale forms in Indian classical music.",
+   "source": "indian-scale-hanumatodi",
+   "sourcePdf": "Indian Scale (Hanumatodi).pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 7,
+   "curated": true
+  },
+  {
+   "id": "ionian-scales",
+   "name": "Ionian Scales - overview with pictures",
+   "aliases": [
+    "Major Scale"
+   ],
+   "slugUrl": "ionian",
+   "steps": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole",
+    "Half",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Ionian Mode Ionian Mode is the first of the seven modes. The obvious thing to notice is that the Ionian Mode is exactly the same as the Major Scale. C Ionian, for instance, can be seen as the modal name for C Major.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G#",
+      "A#",
+      "B"
+     ]
+    }
+   },
+   "source": "ionian-scales"
+  },
+  {
+   "id": "iwato-scale",
+   "name": "Iwato Scale",
+   "aliases": [],
+   "slugUrl": "iwato",
+   "steps": [
+    1,
+    4,
+    1,
+    4,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "4",
+    "b5",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Quadra"
+   ],
+   "noteCount": 5,
+   "description": "Iwato Scale Iwato is the name of a Japanese scale. It includes five notes (which makes it a pentatonic scale type), characterized by two small and two big intervals. The complete semitone pattern is presented below. The Iwato Scale presented here for piano is one of many Japanese scales, see also In Sen, Hirajoshi and Yo.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "F",
+      "Gb",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "G",
+      "Ab",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "A",
+      "Bb",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "Bb",
+      "B",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "C",
+      "Db",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "D",
+      "Eb",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "E",
+      "F",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "iwato-scale"
+  },
+  {
+   "id": "japanese-scales-in-sen",
+   "name": "Japanese (in sen) Scales",
+   "aliases": [
+    "in sen Scale"
+   ],
+   "slugUrl": "japanese-in-sen",
+   "steps": [
+    1,
+    4,
+    2,
+    3,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "4",
+    "5",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Quadra"
+   ],
+   "noteCount": 5,
+   "description": "Japanese Scales (in sen) This is one of the most common among Japanese scales (there are other scales sometimes called simply by names such as \"Japanese 1\" and \"Japanese 2\"), and often referred to as the Japanese Scale. It is also referred to as \"in sen scale\" (not to be confused with the \"in scale\"). See also Hirajoshi, Iwato and Yo. The scale is built as a pentatonic scale with five notes, which is common for scales used in",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "F",
+      "G",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "G",
+      "A",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "A",
+      "B",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "Bb",
+      "C",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "C",
+      "D",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "D",
+      "E",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "E",
+      "F#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "japanese-scales-in-sen"
+  },
+  {
+   "id": "locrian-2-scale-half-diminished",
+   "name": "Locrian 2 Scale Half Diminished",
+   "aliases": [
+    "Half Diminished",
+    "Minor Locrian",
+    "Aeolian b5 Scale"
+   ],
+   "slugUrl": "half-diminished",
+   "steps": [
+    2,
+    1,
+    2,
+    1,
+    2,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "b5",
+    "b6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Locrian #2 is identical with the Locrian Mode apart from the lowered second. This scale is also referred to as the Minor Locrian or Aeolian b5 Scale since it is identical with the Aeolian Mode (or Natural Minor), apart from the lowered fifth. The scale is sometimes called Half Diminished and it shares many notes with diminished chords as well as half-diminished chords. The Locrian #2 is one of the altered Locrian scales. See also Super Locrian Scale.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "Gb",
+      "Ab",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "F##",
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D#",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "locrian-2-scale-half-diminished"
+  },
+  {
+   "id": "locrian-scales",
+   "name": "Locrian Scales - overview with pictures",
+   "aliases": [],
+   "slugUrl": "locrian",
+   "steps": [
+    1,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "b3",
+    "4",
+    "b5",
+    "b6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Locrian Mode The Locrian Mode is one of the seven modes. The B Locrian has the same notes as in C Major, but the tonic starts at B. Compared to the Major Scale, all notes except the tonic and 4th degree are flattened (see scale degrees below). This creates a diminished character and gives the Locrian Scale an unstable sound. The chords built from the tonic are diminished chord types, such as Bdim that includes the notes B, D and F. An especially common choice is to use this scale over half-diminished",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "Gb",
+      "Ab",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "Ab",
+      "Bb",
+      "Cb",
+      "Db",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "locrian-scales"
+  },
+  {
+   "id": "lydian-augmented-scales",
+   "name": "Lydian Augmented Scales",
+   "aliases": [
+    "Lydian #5 Scale"
+   ],
+   "slugUrl": "lydian-augmented",
+   "steps": [
+    2,
+    2,
+    2,
+    2,
+    1,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "#4",
+    "#5",
+    "6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Lydian Augmented (Lydian #5 Scale) The Lydian Augmented Scale is often referred to as the Lydian #5 Scale. It is also the third mode of the Melodic Minor Scale, meaning it shares the same notes but in different order. For example, A Melodic Minor has the same notes as C Lydian Augmented. This scale is primarily a choice in jazz and neo soul. The scale differs from the regular Lydian Mode by including an augmented fifth interval. Since",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G#",
+      "A#",
+      "B#",
+      "C#",
+      "D#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "E#",
+      "F#",
+      "G#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D#",
+      "E##",
+      "F##",
+      "G#",
+      "A#",
+      "B"
+     ]
+    }
+   },
+   "source": "lydian-augmented-scales"
+  },
+  {
+   "id": "lydian-diminished-scales",
+   "name": "Lydian Diminished Scales",
+   "aliases": [
+    "Lydian b3 Scale"
+   ],
+   "slugUrl": "lydian-diminished",
+   "steps": [
+    2,
+    1,
+    3,
+    1,
+    2,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "#4",
+    "5",
+    "6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole"
+   ],
+   "noteCount": 7,
+   "description": "Lydian Diminished (Lydian b3 Scale) The Lydian Diminished Scale is often referred to as the Lydian b3 Scale due to the flatted third, which deviates from the Lydian Mode. This is a musical scale that is seldom used and also a mode of the Harmonic Major Scale. As an example, C Lydian Diminished (C, D, Eb, F#, G, A, B) is identical with G Harmonic Major (G, A, B, C, D, Eb, F#), except for the order of notes. Lydian Diminished is one of many alternate Lydian scales. See also Lydian Augmented",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G#",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A#",
+      "B",
+      "C#",
+      "D#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D#",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E#",
+      "F#",
+      "G#",
+      "A#",
+      "B"
+     ]
+    }
+   },
+   "source": "lydian-diminished-scales"
+  },
+  {
+   "id": "lydian-dominant-scales",
+   "name": "Lydian Dominant Scales",
+   "aliases": [
+    "Lydian b7 Scale",
+    "Lydian Mixolydian Scale",
+    "Acoustic Scale",
+    "Overtone"
+   ],
+   "slugUrl": "lydian-dominant",
+   "steps": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "#4",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Lydian Dominant (Lydian b7 Scale) Scale \u2022 Bartok Scale The Lydian Dominant Scale is often referred to as the Lydian b7 Scale, but goes also under the names Acoustic Scale, Overtone Scale and Bartok Scale (from the Hungarian composer B\u00e9la Bart\u00f3k who used the scale). The scale has, for example, been present in modern classical music with a touch of folk music and can deliver a kind of mystic feeling. It is also popular in jazz music with a touch of blues.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D#",
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "lydian-dominant-scales"
+  },
+  {
+   "id": "lydian-scales",
+   "name": "Lydian Scales - overview with pictures",
+   "aliases": [],
+   "slugUrl": "lydian",
+   "steps": [
+    2,
+    2,
+    2,
+    1,
+    2,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "#4",
+    "5",
+    "6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Lydian Mode The Lydian Mode is the fourth of the seven modes. Lydian scales are related to Major: F Lydian is identical with C Major played from F. The intervals in the Lydian Mode are also similar to the Major Scale, only the fourth note deviates. It is the sharpened fourth that characterize the Lydian from Major (see interval pattern below). See also Lydian Dominant, Lydian Diminished and Lydian Augmented. The best practice for hearing the scale in action, is playing it over a chord with the same root",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      2
+     ]
+    },
+    "1": {
+     "display": "C# / Db",
+     "notes": [
+      "Db",
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "Db"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C#",
+      "D"
+     ],
+     "lh": [
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3
+     ]
+    },
+    "3": {
+     "display": "D# /Eb",
+     "notes": [
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "Eb"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      2,
+      3
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      1,
+      2,
+      3,
+      1,
+      2
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D#",
+      "E"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      2,
+      3,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "6": {
+     "display": "F# / Gb",
+     "notes": [
+      "Gb",
+      "Ab",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "Gb"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      2
+     ],
+     "rh": [
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+     ]
+    },
+    "8": {
+     "display": "G# / Ab",
+     "notes": [
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "Ab"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G#",
+      "A"
+     ],
+     "lh": [
+      2,
+      1,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "10": {
+     "display": "A# / Bb",
+     "notes": [
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      2
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D#",
+      "F",
+      "F#",
+      "G#",
+      "A#",
+      "B"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    }
+   },
+   "source": "lydian-scales"
+  },
+  {
+   "id": "major-bebop",
+   "name": "Major Bebop Scale",
+   "aliases": [
+    "Bebop Major"
+   ],
+   "steps": [
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "b6",
+    "6",
+    "7"
+   ],
+   "description": "An eight-note scale: the major scale with an added chromatic passing tone between the fifth and sixth degrees. The extra note makes the scale come out even in eighth notes, so chord tones land on the downbeats.",
+   "source": "bebop-scale",
+   "sourcePdf": "Bebop Scale.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 8,
+   "curated": true
+  },
+  {
+   "id": "major-blues",
+   "name": "Major Blues Scale",
+   "aliases": [
+    "Major Pentatonic Blues"
+   ],
+   "steps": [
+    2,
+    1,
+    1,
+    3,
+    2,
+    3
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "3",
+    "5",
+    "6"
+   ],
+   "description": "The major blues scale is the major pentatonic with an added flat third, giving the characteristic slide between the minor and major third. Brighter and more country- or gospel-flavored than the minor blues scale.",
+   "source": "blues-scales",
+   "sourcePdf": "Blues Scales.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 6,
+   "curated": true
+  },
+  {
+   "id": "major-locrian-scales",
+   "name": "Major Locrian Scales",
+   "aliases": [
+    "Major Locrian"
+   ],
+   "slugUrl": "arabic",
+   "steps": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "b5",
+    "b6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole",
+    "Half",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Arabic Scale There are actually two different scales referred to as \u201cArabian\u201d. The one presented with diagrams below is similar to the Major Locrian Scale and the other to the Diminished Scale. The scales illustrated below in all keys, belong to the former. They can easier be memorized if compared to the Major Scale: the fifth, sixth and seventh are lowered half a step with the rest of the notes just the same as in the Major.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "E",
+      "F",
+      "Gb",
+      "Ab",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F#",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "B",
+      "Db",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "B",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C#",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "major-locrian-scales"
+  },
+  {
+   "id": "major-scales",
+   "name": "Major Scales",
+   "aliases": [],
+   "slugUrl": "major",
+   "steps": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole",
+    "Half",
+    "Whole",
+    "Whole",
+    "Whole",
+    "Half"
+   ],
+   "noteCount": 7,
+   "description": "Major scales are the most important piano scales: firstly, because they are very common and, secondly, because they are fundamental to understand keys. If someone mention that a piano sonata by the composer and pianist Franz Schubert is played in A Major, it means that it depends on the A Scale. You can scroll down and see keyboard images all Major scales. Further down, you will see an overview with all the notes together with intervals, semi-tones and the formula of the Major",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "B",
+      "C"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C#",
+      "D"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "E"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "F"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "A"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G#",
+      "A#",
+      "B"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "1": {
+     "display": "C# / Db",
+     "notes": [
+      "Db",
+      "Eb",
+      "F",
+      "Gb",
+      "Ab",
+      "Bb",
+      "C",
+      "Db"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2
+     ]
+    },
+    "3": {
+     "display": "D# / Eb",
+     "notes": [
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "Eb"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      3,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3
+     ]
+    },
+    "6": {
+     "display": "F# / Gb",
+     "notes": [
+      "F#",
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D#",
+      "F",
+      "F#"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      4
+     ],
+     "rh": [
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2
+     ]
+    },
+    "8": {
+     "display": "G# / Ab",
+     "notes": [
+      "Ab",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "G",
+      "Ab"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+     ]
+    },
+    "10": {
+     "display": "A# / Bb",
+     "notes": [
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4
+     ]
+    }
+   },
+   "source": "major-scales"
+  },
+  {
+   "id": "melodic-minor-scales",
+   "name": "Melodic Minor Scales",
+   "aliases": [],
+   "slugUrl": "minor-melodic",
+   "steps": [
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole",
+    "Whole",
+    "Whole",
+    "Whole",
+    "Half"
+   ],
+   "noteCount": 7,
+   "description": "The Melodic Minor Scale differs from the Natural Minor Scale by the sixth and seventh notes, which are raised one semitone (see scale degree overview below). This scale is kind of peculiar since it is sometimes played differently ascending and descending. Jazz: The sixth and seventh notes are always raised, exactly as the pictures below illustrate. This is the most modern approach to this scale. Classical music: When you go up the scale, you use the Melodic Minor Scale, but when you",
+   "roots": {},
+   "source": "melodic-minor-scales"
+  },
+  {
+   "id": "mi-sheberach-scales-dorian-4",
+   "name": "Mi Sheberach Scales Dorian 4",
+   "aliases": [
+    "Dorian #4 Scale",
+    "Ukrainian Dorian Scale"
+   ],
+   "slugUrl": "mi-sheberach",
+   "steps": [
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "#4",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole"
+   ],
+   "noteCount": 7,
+   "description": "Mi Sheberach (Dorian #4 Scale) Mi Sheberach is rooted in the music of Eastern Europe and it is also known as Ukrainian Dorian Scale, or simply Dorian #4 Scale. The Dorian #4 Scale is the most descriptive name and indicates the raised 4th, which adds a whole and a half step to the scale note formula, compared to the regular Dorian mode. In the context of an alternate scale, the Dorian #4 is one of three altered Dorian scales. The",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A#",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E#",
+      "F#",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "mi-sheberach-scales-dorian-4"
+  },
+  {
+   "id": "minor-bebop",
+   "name": "Minor Bebop Scale",
+   "aliases": [
+    "Bebop Minor",
+    "Dorian Bebop"
+   ],
+   "steps": [
+    2,
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "3",
+    "4",
+    "5",
+    "6",
+    "b7"
+   ],
+   "description": "The Dorian mode with an added chromatic passing tone between the flat third and the natural third. Used over minor seventh chords in a ii-V-I.",
+   "source": "bebop-scale",
+   "sourcePdf": "Bebop Scale.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 8,
+   "curated": true
+  },
+  {
+   "id": "minor-blues",
+   "name": "Minor Blues Scale",
+   "aliases": [
+    "Minor Pentatonic Blues"
+   ],
+   "steps": [
+    3,
+    2,
+    1,
+    1,
+    3,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b3",
+    "4",
+    "#4",
+    "5",
+    "b7"
+   ],
+   "description": "The minor blues scale is the minor pentatonic with an added flat fifth - the 'blue note'. It is the workhorse scale for blues and rock soloing, and sits comfortably over dominant seventh chords.",
+   "source": "blues-scales",
+   "sourcePdf": "Blues Scales.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 6,
+   "curated": true
+  },
+  {
+   "id": "minor-scales",
+   "name": "Minor Scales",
+   "aliases": [],
+   "slugUrl": "minor",
+   "steps": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "4",
+    "5",
+    "b6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole",
+    "Whole",
+    "Half",
+    "Whole",
+    "Whole"
+   ],
+   "noteCount": 7,
+   "description": "There are not one but three types of Minor scales, all presented here with keyboard diagrams, notes and fingerings. The three groups of Minor scales are: The Natural Minor (see below) The Melodic Minor The Harmonic Minor The Natural Minor Scale is often referred to simply as \u201cthe Minor Scale\u201d. This scale can be confusing because it is in a way identical to the Major Scale. The A Minor Scale include exactly the same notes as the C Major Scale which makes them relative keys (read more",
+   "roots": {
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "10": {
+     "display": "A# / Bb",
+     "notes": [
+      "A#",
+      "C",
+      "C#",
+      "D#",
+      "F",
+      "F#",
+      "G#",
+      "A#"
+     ],
+     "lh": [
+      2,
+      1,
+      3,
+      2,
+      1,
+      4,
+      3,
+      2
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "1": {
+     "display": "C# / Db",
+     "notes": [
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C#"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "3": {
+     "display": "D# / Eb",
+     "notes": [
+      "D#",
+      "F",
+      "F#",
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D#"
+     ],
+     "lh": [
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2
+     ],
+     "rh": [
+      3,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "6": {
+     "display": "F# / Gb",
+     "notes": [
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      4
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "8": {
+     "display": "G# / Ab",
+     "notes": [
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G#"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      4,
+      3
+     ],
+     "rh": [
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+     ]
+    }
+   },
+   "source": "minor-scales"
+  },
+  {
+   "id": "mixo-blues-scales",
+   "name": "Mixo-blues Scales - overview with pictures",
+   "aliases": [],
+   "slugUrl": "mixo-blues",
+   "steps": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "3",
+    "4",
+    "b5",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    ""
+   ],
+   "noteCount": 9,
+   "description": "Mixo-blues Scale The Mixo-blues is as the name implies a scale used in blues. It can be seen as a blend of the Major and Minor pentatonic blues scales and the Mixolydian Mode. To illustrate how these scales overlaps, we can use the C Mixo-blues Scale as a starting- point: G, A, Bb, B, C, Db, D, E, F Its nine notes include the notes in all the other \u2026 (G Pentatonic Blues) G, A, Bb, B, D, E \u2013 (Gm Pentatonic Blues) G, Bb, C, Db, D, F \u2013 (G",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "E",
+      "F",
+      "Gb",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "F#",
+      "G",
+      "Ab",
+      "A",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "A",
+      "A#",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "A",
+      "Bb",
+      "Cb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "B",
+      "C",
+      "Db",
+      "D",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "C#",
+      "D",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "D#",
+      "E",
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "mixo-blues-scales"
+  },
+  {
+   "id": "mixolydian-hexatonic-scale",
+   "name": "Mixolydian Hexatonic Scale",
+   "aliases": [],
+   "slugUrl": "mixolydian-hexatonic",
+   "steps": [
+    2,
+    3,
+    2,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole and a half",
+    ""
+   ],
+   "noteCount": 6,
+   "description": "The Mixolydian Hexatonic Scale deviates from the Mixolydian by missing the third interval. The lack of a third interval makes it ambiguous in the sense it has neither major nor minor sound. Mixolydian Hexatonic consists of six notes, thus the name hexatonic. Also notice the close relationship to the Dorian. As for the distinction with Mixolydian, the only difference is the missing third. Whereas the third is a minor interval in Dorian, it is a major",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "mixolydian-hexatonic-scale"
+  },
+  {
+   "id": "mixolydian-scales",
+   "name": "Mixolydian Scales - overview with pictures",
+   "aliases": [
+    "Dominant 7th Scale"
+   ],
+   "slugUrl": "mixolydian",
+   "steps": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole",
+    "Half",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Mixolydian Mode The Mixolydian Scale (or mode) is one of the modal scales. This scale is sometimes referred to as the Dominant 7th Scale. You may recognize the dominant pattern in the intervals (1, 2, 3, 4, 5, 6, b7) if compared to the dominant 7th chord with the chord steps 1, 3, 5, b7. The Mixolydian scales are easy to learn as you can see by comparing them with the Major scales. The difference between C Major and C Mixolydian is only one note, the seventh. You",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "1": {
+     "display": "C# / Db",
+     "notes": [
+      "C#",
+      "D#",
+      "E#",
+      "F#",
+      "G#",
+      "A#",
+      "B",
+      "C#"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      3
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "3": {
+     "display": "D# /Eb",
+     "notes": [
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "Db",
+      "Eb"
+     ],
+     "lh": [
+      2,
+      1,
+      4,
+      3,
+      2,
+      1,
+      2,
+      3
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      3,
+      4,
+      1,
+      2,
+      3
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "6": {
+     "display": "F# / Gb",
+     "notes": [
+      "F#",
+      "G#",
+      "A#",
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      2
+     ],
+     "rh": [
+      2,
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "8": {
+     "display": "G# / Ab",
+     "notes": [
+      "Ab",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "Gb",
+      "Ab"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      3,
+      2
+     ],
+     "rh": [
+      2,
+      3,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C#",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A"
+     ],
+     "lh": [
+      5,
+      4,
+      3,
+      2,
+      1,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "10": {
+     "display": "A# / Bb",
+     "notes": [
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "Bb"
+     ],
+     "lh": [
+      3,
+      2,
+      1,
+      3,
+      2,
+      1,
+      2,
+      3
+     ],
+     "rh": [
+      2,
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D#",
+      "E",
+      "F#",
+      "G#",
+      "A",
+      "B"
+     ],
+     "lh": [
+      4,
+      3,
+      2,
+      1,
+      4,
+      3,
+      2,
+      1
+     ],
+     "rh": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      4,
+      5
+     ]
+    }
+   },
+   "source": "mixolydian-scales"
+  },
+  {
+   "id": "neapolitan-major",
+   "name": "Neapolitan Major Scale",
+   "aliases": [],
+   "steps": [
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "b3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "description": "A flat second and flat third over an otherwise major upper tetrachord - effectively Phrygian with a raised sixth and seventh.",
+   "source": "neapolitan-scales",
+   "sourcePdf": "Neapolitan Scales.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 7,
+   "curated": true
+  },
+  {
+   "id": "neapolitan-minor",
+   "name": "Neapolitan Minor Scale",
+   "aliases": [],
+   "steps": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    3,
+    1
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "b3",
+    "4",
+    "5",
+    "b6",
+    "7"
+   ],
+   "description": "Harmonic minor with a lowered second degree. The flat second over a minor tonic gives the dark, Neapolitan color.",
+   "source": "neapolitan-scales",
+   "sourcePdf": "Neapolitan Scales.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 7,
+   "curated": true
+  },
+  {
+   "id": "nine-tone-scale",
+   "name": "Nine Tone Scale",
+   "aliases": [],
+   "slugUrl": "nine-tone",
+   "steps": [
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    2,
+    1
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "3",
+    "b5",
+    "5",
+    "b6",
+    "6",
+    "7"
+   ],
+   "formulaWords": [
+    "Whole",
+    ""
+   ],
+   "noteCount": 9,
+   "description": "The Nine Tone Scale is somewhat uncommon with its nine notes. It reminds a little of the Augmented Scale, and we can see a similarity comparing C Augmented Scale and C Nine Tone Scale, which both include Eb and G#. Because of the many notes that are included, there are numerous possibilities to play over chords with these scales. One of the music styles that have absorbed Nine Tone scales is jazz.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "A#",
+      "B",
+      "C#",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "A#",
+      "B",
+      "C",
+      "C#",
+      "Eb",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "A#",
+      "B",
+      "C#",
+      "D",
+      "Eb",
+      "E",
+      "F#",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "C#",
+      "Eb",
+      "E",
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "G",
+      "G#",
+      "A#",
+      "B"
+     ]
+    }
+   },
+   "source": "nine-tone-scale"
+  },
+  {
+   "id": "octatonic-half-whole-scale",
+   "name": "Octatonic Half Whole Scale",
+   "aliases": [
+    "Half Whole Scale"
+   ],
+   "slugUrl": "octatonic-half-whole",
+   "steps": [
+    1,
+    2,
+    1,
+    2,
+    1,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "b3",
+    "3",
+    "b5",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 8,
+   "description": "The Octatonic Half Whole Scale consists, as the name implies, of eight notes (an octatonic scale is also used as a term to describe any scale with eight notes in it), and alternates half and whole steps. There are two different versions with intervals ordered contrarily. The Octatonic Half Whole Scale is, for example, used to improvise over dominant seventh chords with flatted alternate ninth, such as 7b9. Directly related to the Half Whole Scale is the Whole Half Scale (a.k.a. the Diminished Scale),",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "Eb",
+      "E",
+      "Gb",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Ab",
+      "A",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Bb",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "Ab",
+      "A",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "Bb",
+      "B",
+      "Db",
+      "D",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Eb",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D",
+      "D#",
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "octatonic-half-whole-scale"
+  },
+  {
+   "id": "oriental-scales",
+   "name": "Oriental Scales",
+   "aliases": [],
+   "slugUrl": "oriental",
+   "steps": [
+    1,
+    3,
+    1,
+    1,
+    3,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "3",
+    "4",
+    "b5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole and a"
+   ],
+   "noteCount": 7,
+   "description": "Oriental Scales The Oriental Scale has a Chinese origin (not to be confused with the Chinese Scale, though), and is an octatonic scale (a scale consisting of eight notes). A feature to observe is that the scale is characterized by groups of semitone intervals (see scale formula below). The Oriental Scale is also the 5th mode of the Double Harmonic Major (Byzantine Scale).",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "E",
+      "F",
+      "Gb",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F#",
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G#",
+      "A",
+      "Bb",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "A",
+      "Bb",
+      "Cb",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "Db",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C#",
+      "D",
+      "Eb",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D#",
+      "E",
+      "F",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "oriental-scales"
+  },
+  {
+   "id": "phrygian-dominant",
+   "name": "Phrygian Dominant Scale",
+   "aliases": [
+    "Spanish Gypsy",
+    "Freygish",
+    "Ahava Raba"
+   ],
+   "steps": [
+    1,
+    3,
+    1,
+    2,
+    1,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "3",
+    "4",
+    "5",
+    "b6",
+    "b7"
+   ],
+   "description": "The fifth mode of the harmonic minor: a major third sitting on top of a flat second. The signature sound of flamenco, klezmer and Middle Eastern music, and the standard choice over an altered dominant resolving to minor.",
+   "source": "dominant-scales",
+   "sourcePdf": "Dominant scales.pdf",
+   "roots": {},
+   "formulaWords": [],
+   "slugUrl": null,
+   "noteCount": 7,
+   "curated": true
+  },
+  {
+   "id": "phrygian-scales",
+   "name": "Phrygian Scales - overview with pictures",
+   "aliases": [],
+   "slugUrl": "phrygian",
+   "steps": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "b3",
+    "4",
+    "5",
+    "b6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Phrygian Mode The Phrygian Scale (or mode) is the third of the modal scales. The Phrygian scales are related to the Major scales: E Phrygian corresponds to C Major played from the E note, A Phrygian corresponds to F Major played from the A note and so on (all relations are listed below). This scale is often used in Spanish, Latin and flamenco music. See also Phrygian Dominant. The Phrygian Mode is almost identical to the Aeolian Mode. It is easy to see if you, for",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "Ab",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "phrygian-scales"
+  },
+  {
+   "id": "prometheus-scales",
+   "name": "Prometheus Scales",
+   "aliases": [],
+   "slugUrl": "prometheus",
+   "steps": [
+    2,
+    2,
+    2,
+    3,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "3",
+    "#4",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole",
+    "Whole",
+    ""
+   ],
+   "noteCount": 6,
+   "description": "Prometheus Scales Prometheus can in music refer to both a scale and a chord, the latter is also known as the Mystic chord (C Prometheus chord: C, F#, Bb, E, A, D). The diagrams below present one of three \"Prometheus\" scales. The other two are Prometheus Neapolitan which deviates with one note (C Prometheus Neapolitan Scale: C, Db, E, F#, A, Bb, C), and Prometheus Liszt which deviates with four notes (C Prometheus Liszt Scale: C, Db, E, F, G#, A, C).",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "E",
+      "F#",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F#",
+      "G#",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G#",
+      "A#",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "A",
+      "B",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "B",
+      "C#",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D#",
+      "F",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "prometheus-scales"
+  },
+  {
+   "id": "romanian-minor-scales",
+   "name": "Romanian Scales - overview with pictures",
+   "aliases": [],
+   "slugUrl": "romanian-minor",
+   "steps": [
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    2
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "b3",
+    "b5",
+    "5",
+    "6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Half",
+    "Whole"
+   ],
+   "noteCount": 7,
+   "description": "Romanian Minor Scales The Romanian Scale brings a beautiful melancholic sound of the Romanian folk music with a touch of gypsy. See pictures below of all Romanian Minor scales for piano. The Romanian Scale is built with a flat third, a sharp fourth and a flat seventh. The formula is written as 1 2 b3 #4 5 6 b7.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "Eb",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "F",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "G",
+      "A#",
+      "B",
+      "C#",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "Bb",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "C",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "D",
+      "F",
+      "F#",
+      "G#",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "romanian-minor-scales"
+  },
+  {
+   "id": "spanish-gypsy-scales-phrygian-dominant",
+   "name": "Spanish Gypsy Scales Phrygian Dominant",
+   "aliases": [
+    "Phrygian Dominant",
+    "Spanish Phrygian",
+    "Spanish Major",
+    "Dorico Flamenco",
+    ""
+   ],
+   "slugUrl": "spanish-gypsy",
+   "steps": [
+    1,
+    3,
+    1,
+    2,
+    1,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "3",
+    "4",
+    "5",
+    "b6",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole and a"
+   ],
+   "noteCount": 7,
+   "description": "Freygish \u2022 Ahava Rabboh Scale \u2022 Jewish Scale The Spanish Gypsy Scale is a common name for the Phrygian Dominant Scale. There are, however, several possible names for this scale: Spanish Phrygian, Spanish Major, Dorico Flamenco and, less often, Freygish or Ahava Rabboh Scale. The notes in this scale are the same as for the Harmonic Minor Scale, but with a different order \u2013 the A Harmonic Minor, for example, is relative to the E Spanish Gypsy.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "E",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F#",
+      "G",
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G#",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "A",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C#",
+      "D",
+      "E",
+      "F",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D#",
+      "E",
+      "F#",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "spanish-gypsy-scales-phrygian-dominant"
+  },
+  {
+   "id": "super-locrian-altered-scale",
+   "name": "Super Locrian",
+   "aliases": [
+    "Altered Scale",
+    "Dominant Altered Scale",
+    "Diminished Whole Tone"
+   ],
+   "slugUrl": "super-locrian",
+   "steps": [
+    1,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "degrees": [
+    "1",
+    "b2",
+    "#2",
+    "3",
+    "b5",
+    "#5",
+    "b7"
+   ],
+   "formulaWords": [
+    "Half",
+    "Whole",
+    "Half",
+    ""
+   ],
+   "noteCount": 7,
+   "description": "Super Locrian Scales The Super Locrian, also known as the Dominant Altered Scale, is built on the Locrian Mode and is particularly used in modern jazz and fusion. The scale is also identical to the seventh mode of the Melodic Minor (e.g. G# Super Locrian is identical to A Melodic Minor). The scale is typically used together with altered dominant seventh chords, such as 7b9 and 7#9, as well as chord with two altered notes, such as 7#9,#5.",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "Db",
+      "D#",
+      "E",
+      "Gb",
+      "G#",
+      "Bb",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "Eb",
+      "F",
+      "Gb",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F",
+      "G",
+      "Ab",
+      "Bb",
+      "C",
+      "D",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "Gb",
+      "G#",
+      "A",
+      "B",
+      "C#",
+      "D#",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "Ab",
+      "A#",
+      "B",
+      "Db",
+      "D#",
+      "F",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "Bb",
+      "C",
+      "Db",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C",
+      "D",
+      "Eb",
+      "F",
+      "G",
+      "A",
+      "B"
+     ]
+    }
+   },
+   "source": "super-locrian-altered-scale"
+  },
+  {
+   "id": "yo-scales",
+   "name": "Yo Scales (Japanese) - overview with pictures",
+   "aliases": [
+    "Ritsu"
+   ],
+   "slugUrl": "yo",
+   "steps": [
+    2,
+    3,
+    2,
+    2,
+    3
+   ],
+   "degrees": [
+    "1",
+    "2",
+    "4",
+    "5",
+    "6"
+   ],
+   "formulaWords": [
+    "Whole",
+    "Whole and a half",
+    "Whole",
+    ""
+   ],
+   "noteCount": 5,
+   "description": "Yo Scales Yo Scale is one of the most common Japanese scales. It contains five notes (it can be seen as the 4th mode of the Major Pentatonic Scale), and is often used in Japanese folk music. One way to learn this scale is to look at it as a Major with the third and seventh degrees absent (see interval pattern below). The Yo Scale is one of several Japanese scales. Some of the others are Hirajoshi, in sen, Iwato and Kumo\u00ef (Dorian Pentatonic).",
+   "roots": {
+    "0": {
+     "display": "C",
+     "notes": [
+      "C",
+      "D",
+      "F",
+      "G",
+      "A",
+      "C",
+      "C#",
+      "Db"
+     ]
+    },
+    "2": {
+     "display": "D",
+     "notes": [
+      "D",
+      "E",
+      "G",
+      "A",
+      "B",
+      "D",
+      "D#"
+     ]
+    },
+    "4": {
+     "display": "E",
+     "notes": [
+      "E",
+      "F#",
+      "A",
+      "B",
+      "C#",
+      "E"
+     ]
+    },
+    "5": {
+     "display": "F",
+     "notes": [
+      "F",
+      "G",
+      "Bb",
+      "C",
+      "D",
+      "F",
+      "F#",
+      "Gb"
+     ]
+    },
+    "7": {
+     "display": "G",
+     "notes": [
+      "G",
+      "A",
+      "C",
+      "D",
+      "E",
+      "G",
+      "G#",
+      "Ab"
+     ]
+    },
+    "9": {
+     "display": "A",
+     "notes": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "F#",
+      "A",
+      "A#",
+      "Bb"
+     ]
+    },
+    "11": {
+     "display": "B",
+     "notes": [
+      "B",
+      "C#",
+      "E",
+      "F#",
+      "G#",
+      "B"
+     ]
+    }
+   },
+   "source": "yo-scales"
+  }
+ ]
+}

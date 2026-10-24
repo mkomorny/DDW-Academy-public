@@ -1,0 +1,87 @@
+{
+  "$comment": "Novation Launchkey MK4 61 — pad-to-MIDI-note mapping. This table exists nowhere as text in the source corpus: the official Programming Reference Guide renders it as rasterized images on pages 11-12, which pdftotext/pypdf's text extraction drops. Values below were read directly off the extracted images and cross-verified (each grid appears twice in the PDF, once in hex once in decimal, so the two encodings check each other). See launchkey-mk4-pad-map.md for the derivation and confidence notes.",
+
+  "device": "Novation Launchkey MK4 61",
+  "source": {
+    "file": "Launchkey Programming Reference Guide for Developers.pdf",
+    "alsoIdenticalIn": "Launchkey MK4 Programmers Reference Guide.pdf (Novation/Components/)",
+    "docVersion": "2.0",
+    "pages": [11, 12],
+    "extractionMethod": "pypdf PageObject.images on pages 11 (index 10) and 12 (index 11)",
+    "extractedImages": ["p11_I1.png (1908x168, DAW mode grid)", "p12_I1.png (1908x168, Drum mode grid)", "p12_I2.png (1908x80, encoder CC row)"]
+  },
+
+  "physicalLayout": { "rows": 2, "cols": 8, "totalPads": 16 },
+
+  "drumMode": {
+    "$comment": "Confirmed directly by the PDF's own prose on page 12: 'pads report back as note ... and can be accessed for colouring their LEDs ... by the following indices:' immediately precedes this exact grid. So the note numbers and the LED indices are the SAME numbers — not an inference.",
+    "channelOneIndexed": 10,
+    "statusByteNoteOn": "0x9A (154) = Note On, channel 10 zero-indexed",
+    "statusByteAftertouch": "0xAA (170) = Polyphonic Aftertouch, channel 10",
+    "enableSysEx": "B6h 54h 01h  (182 84 1)",
+    "disableSysExReturnToStandalone": "B6h 54h 00h  (182 84 0)",
+    "noteRange": [36, 51],
+    "noteRangeName": "C1 to D#2 (NOT 'C1 to D2' as some Novation marketing prose loosely states — the true top note is 51 = D#2/Eb2)",
+    "notesEqualLedIndices": true,
+
+    "grid_bottomToTop_leftToRight": {
+      "$comment": "row 0 = physical bottom row, row 1 = physical top row; col 0 = leftmost pad, col 7 = rightmost pad. Orientation (which drawn row is physically top vs bottom) is inferred from the product docs' stated rule 'notes increase left to right, bottom to top' plus the independent fact that note 36 = C1 must be the bottom-left pad (stated elsewhere in the corpus). This is NOT a label printed in the image itself.",
+      "row0_bottom": [36, 37, 38, 39, 44, 45, 46, 47],
+      "row1_top":    [40, 41, 42, 43, 48, 49, 50, 51]
+    },
+
+    "layoutNote": "The 16 pads are NOT one contiguous chromatic run. They split into two 2x4 blocks — columns 1-4 (left half) and columns 5-8 (right half) — and WITHIN each block notes run bottom-row-then-top-row. This is not documented anywhere as prose; it is derived purely from the numbers in the official table. It is exactly the pattern needed to map 16 physical pads onto a 4x4 Ableton Drum Rack.",
+
+    "drumRack4x4Mapping": [
+      { "rackRow": 1, "position": "bottom", "notes": [36, 37, 38, 39], "physicalQuadrant": "bottom-left 2x4 half, bottom row" },
+      { "rackRow": 2, "notes": [40, 41, 42, 43], "physicalQuadrant": "bottom-left 2x4 half, top row" },
+      { "rackRow": 3, "notes": [44, 45, 46, 47], "physicalQuadrant": "bottom-right 2x4 half, bottom row" },
+      { "rackRow": 4, "position": "top", "notes": [48, 49, 50, 51], "physicalQuadrant": "bottom-right... " }
+    ],
+    "drumRack4x4MappingNote": "rackRow numbering above follows MIDI-note ascending order (36-39 lowest). Whether Ableton's own Drum Rack grid draws row 1 at the visual bottom or top is a Live UI convention, not a hardware fact — verify against a live Drum Rack before teaching this as gospel; the note-to-quadrant mapping itself is solid."
+  },
+
+  "dawMode": {
+    "$comment": "Used for clip-launch / session-grid style control, not drum programming. Included for completeness since it shares the same source page. Physical row orientation inferred the same way as drumMode (ascending bottom-to-top), not read directly off image labels.",
+    "channelOneIndexed": 1,
+    "statusByteNoteOn": "0x90 (144)",
+    "statusByteAftertouch": "0xA0 (160)",
+    "grid_bottomToTop_leftToRight": {
+      "row0_bottom": [96, 97, 98, 99, 100, 101, 102, 103],
+      "row1_top":    [112, 113, 114, 115, 116, 117, 118, 119]
+    },
+    "layoutNote": "Unlike Drum mode, DAW mode notes run as two plain contiguous 8-note rows (no quadrant split) — one full physical row per 8-note block."
+  },
+
+  "velocityCurves": {
+    "pads": { "options": ["Soft", "Normal", "Hard", "Fixed"], "default": "Normal" },
+    "keys": { "options": ["Soft", "Normal", "Hard", "Fixed"], "default": "Normal" },
+    "fixedVelocityDefault": 120,
+    "fixedVelocityRange": [1, 127],
+    "sysexFeatureId": { "keysVelocityCurve": "0x68 (104)", "padsVelocityCurve": "0x69 (105)" }
+  },
+
+  "aftertouch": {
+    "padDefault": "Polyphonic",
+    "options": ["Off", "Channel", "Poly"],
+    "thresholdOptions": ["Low", "Normal", "High"],
+    "thresholdDefault": "Normal",
+    "note": "This device does not implement full MPE on its pads. The practical per-pad expression feature is Polyphonic Aftertouch (post-strike pressure), commonly mapped to filter cutoff or pitch. Teach Poly AT as the primary feature; cover MPE as background context only (the dedicated MPE spec lives in the corpus's Drum course/ folder)."
+  },
+
+  "defaultChannelsOneIndexed": { "partA": 1, "partB": 2, "chords": 3, "drums": 10 },
+
+  "padModeSelect": {
+    "$comment": "Shift + pad number selects which mode the 16 pads operate in (power-on default is Drum).",
+    "reportedOnChannel": 7,
+    "statusByte": "0xB6 (182)",
+    "cc": "0x1D (29)",
+    "values": { "01": "Drum layout", "02": "DAW layout", "04": "User Chords", "05": "Custom 1", "06": "Custom 2", "07": "Custom 3", "08": "Custom 4", "0D": "Arp Pattern", "0E": "Chord Map" }
+  },
+
+  "encoders": {
+    "count": 8,
+    "absoluteModeCC": { "channel": 16, "statusByte": "0xBF (191)", "ccRange": [21, 28], "ccRangeHex": ["0x15", "0x1C"], "modes": ["Mixer", "Plugin", "Sends"] },
+    "modeSelectCC": { "channel": 7, "statusByte": "0xB6 (182)", "cc": "0x1E (30)" }
+  }
+}

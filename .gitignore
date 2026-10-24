@@ -1,0 +1,19 @@
+node_modules/
+dist/
+build/
+tools/author/out/
+
+# API keys / secrets — never commit
+*API*KEY*.txt
+*api*key*.txt
+ai-config.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
+
+# Local environment
+.env
+.env.*
+!.env.example

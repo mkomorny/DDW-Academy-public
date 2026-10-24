@@ -1,0 +1,52 @@
+{
+  "name": "ddw-academy",
+  "productName": "DDW Academy",
+  "version": "1.2.0",
+  "description": "A complete interactive piano and music theory course, from absolute beginner to advanced scales, harmony and improvisation.",
+  "main": "src/main/main.js",
+  "author": "Built from the Music Production Research library",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win",
+    "pack": "electron-builder --win --dir"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.digidreamweaver.ddwacademy",
+    "productName": "DDW Academy",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "!src/data/**/*.map"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "DDW Academy"
+    }
+  }
+}
